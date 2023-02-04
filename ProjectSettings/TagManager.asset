@@ -8,6 +8,10 @@ TagManager:
   - Skull
   - Vase
   - Pail
+  - VaseComplete
+  - Key
+  - BlueVase
+  - RedVase
   layers:
   - Default
   - TransparentFX
