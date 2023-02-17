@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - Mirror
+  - Crate
+  - Skull
+  - Vase
+  - Pail
+  - VaseComplete
+  - Key
+  - BlueVase
+  - RedVase
   layers:
   - Default
   - TransparentFX
@@ -12,8 +20,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Interactable
   - 
   - 
   - 
