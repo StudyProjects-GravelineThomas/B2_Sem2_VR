@@ -10,6 +10,8 @@ public class ChangeMaterial : MonoBehaviour
     public bool Half;
     public bool Done = true;
     public GameObject VaseVide;
+    public GameObject OpenedDoor;
+    public GameObject ClosedDoor;
     
     void OnTriggerEnter(Collider other)
     {
@@ -20,6 +22,9 @@ public class ChangeMaterial : MonoBehaviour
                 if (Half == true)
                 {
                     Violet.SetActive(true);
+                    Done = true;
+                    ClosedDoor.SetActive(false);
+                    OpenedDoor.SetActive(true);
                     /*VaseVide.GetComponent<MeshRenderer>().material = Violet;
                     Violet = VaseVide.GetComponent<MeshFilter>();
                     Violet.sharedMesh = Resources.Load<Mesh>("Icosphere,003");*/
@@ -41,6 +46,8 @@ public class ChangeMaterial : MonoBehaviour
                 if (Half == true)
                 {
                     Violet.SetActive(true);
+                    ClosedDoor.SetActive(false);
+                    OpenedDoor.SetActive(true);
                     /*VaseVide.GetComponent<MeshRenderer> ().material = Violet;
                     Violet = VaseVide.GetComponent<MeshFilter>();
                     Violet.sharedMesh = Resources.Load<Mesh>("Icosphere,003");*/
