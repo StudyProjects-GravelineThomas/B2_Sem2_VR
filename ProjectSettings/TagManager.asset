@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Mirror
+  - Crate
+  - Skull
+  - Vase
+  - Pail
+  - VaseComplete
+  - Key
+  - BlueVase
+  - RedVase
   layers:
   - Default
   - TransparentFX
