@@ -135,6 +135,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (16)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -216,6 +220,10 @@ PrefabInstance:
     - target: {fileID: 1242776226696080, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
       propertyPath: m_Name
       value: Props_GoldPile (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242776226696080, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4782122063861334, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
       propertyPath: m_RootOrder
@@ -303,6 +311,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (17)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -384,6 +396,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -469,7 +485,7 @@ GameObject:
   - component: {fileID: 26264250}
   - component: {fileID: 26264249}
   - component: {fileID: 26264248}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -829,6 +845,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (23)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -965,6 +985,10 @@ PrefabInstance:
     - target: {fileID: 1037532181544640, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
       propertyPath: m_Name
       value: Props_Bowl_Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037532181544640, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4765295316537092, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
       propertyPath: m_RootOrder
@@ -1226,6 +1250,12 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!4 &113195010 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba,
+    type: 3}
+  m_PrefabInstance: {fileID: 1646294338}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &113750320
 GameObject:
   m_ObjectHideFlags: 0
@@ -1446,7 +1476,7 @@ GameObject:
   - component: {fileID: 116327902}
   - component: {fileID: 116327901}
   - component: {fileID: 116327903}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1561,6 +1591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_WoodenChair_A
       objectReference: {fileID: 0}
+    - target: {fileID: 1658090107040842, guid: d135cb7117e54144cada4a5862c08560, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4238827022925968, guid: d135cb7117e54144cada4a5862c08560, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -1623,6 +1657,10 @@ PrefabInstance:
     - target: {fileID: 1242776226696080, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
       propertyPath: m_Name
       value: Props_GoldPile (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242776226696080, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4782122063861334, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
       propertyPath: m_RootOrder
@@ -1692,9 +1730,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Barrel (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1615328391677320, guid: d0291f7f977e5864fb0f103d60bfcdb9, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4550329752422084, guid: d0291f7f977e5864fb0f103d60bfcdb9, type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 4550329752422084, guid: d0291f7f977e5864fb0f103d60bfcdb9, type: 3}
       propertyPath: m_LocalScale.x
@@ -1964,6 +2006,10 @@ PrefabInstance:
       value: Floor_Tile_Stone_A (4)
       objectReference: {fileID: 0}
     - target: {fileID: 1321917378138086, guid: 475b905fe3b32864fb3448b79d6bc815, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321917378138086, guid: 475b905fe3b32864fb3448b79d6bc815, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -2057,6 +2103,10 @@ PrefabInstance:
     - target: {fileID: 1037532181544640, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
       propertyPath: m_Name
       value: Props_Bowl_Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037532181544640, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4765295316537092, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
       propertyPath: m_RootOrder
@@ -2329,6 +2379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Wall_LightStick (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1409237074301192, guid: 6dcdd798812b85b4796fb2548a3a311d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4303056760651506, guid: 6dcdd798812b85b4796fb2548a3a311d, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -2409,7 +2463,7 @@ GameObject:
   - component: {fileID: 239718776}
   - component: {fileID: 239718775}
   - component: {fileID: 239718777}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2505,6 +2559,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_GoldPile
       objectReference: {fileID: 0}
+    - target: {fileID: 1242776226696080, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4782122063861334, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -2579,6 +2637,10 @@ PrefabInstance:
     - target: {fileID: 1645247040696762, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_Name
       value: Props_PotionSmall_Blue (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645247040696762, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_RootOrder
@@ -2698,7 +2760,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &280422550
 PrefabInstance:
@@ -2710,6 +2772,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -2822,10 +2888,10 @@ Transform:
   - {fileID: 1297845851}
   - {fileID: 626567147}
   - {fileID: 1879999936}
-  - {fileID: 1124331683}
-  - {fileID: 1781734059}
   - {fileID: 877602658}
+  - {fileID: 1124331683}
   - {fileID: 830529482}
+  - {fileID: 1781734059}
   - {fileID: 1201972885}
   - {fileID: 1807892507}
   - {fileID: 1811617426}
@@ -2840,6 +2906,8 @@ Transform:
   - {fileID: 1816137924}
   - {fileID: 820730462}
   - {fileID: 176580627}
+  - {fileID: 490639895}
+  - {fileID: 113195010}
   m_Father: {fileID: 835626146}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2853,6 +2921,10 @@ PrefabInstance:
     - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_Name
       value: Props_Crate_ (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_TagString
@@ -3130,6 +3202,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (26)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -3211,6 +3287,10 @@ PrefabInstance:
     - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_Name
       value: Props_Crate (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4626758430679836, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_RootOrder
@@ -3350,6 +3430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_WoodenPlank_Big (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1117362481415968, guid: a4b27d1f6343596459f4f29663d21eda, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4646888661230560, guid: a4b27d1f6343596459f4f29663d21eda, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -3423,19 +3507,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1445734457}
     m_Modifications:
     - target: {fileID: 1706781414669426, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
       propertyPath: m_Name
       value: Props_StoneHolder
       objectReference: {fileID: 0}
+    - target: {fileID: 1706781414669426, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4483261718543978, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 4483261718543978, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2
+      value: 1.2000002
       objectReference: {fileID: 0}
     - target: {fileID: 4483261718543978, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
       propertyPath: m_LocalScale.y
@@ -3443,35 +3531,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4483261718543978, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.2
+      value: 1.2000003
       objectReference: {fileID: 0}
     - target: {fileID: 4483261718543978, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.13
+      value: 17.366234
       objectReference: {fileID: 0}
     - target: {fileID: 4483261718543978, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 11.721938
       objectReference: {fileID: 0}
     - target: {fileID: 4483261718543978, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.425
+      value: 13.752096
       objectReference: {fileID: 0}
     - target: {fileID: 4483261718543978, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.7848855
       objectReference: {fileID: 0}
     - target: {fileID: 4483261718543978, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.36599812
       objectReference: {fileID: 0}
     - target: {fileID: 4483261718543978, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7071068
+      value: -0.4531539
       objectReference: {fileID: 0}
     - target: {fileID: 4483261718543978, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.2113091
       objectReference: {fileID: 0}
     - target: {fileID: 4483261718543978, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3521,6 +3609,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (15)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -3546,7 +3638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.64
+      value: 2.34
       objectReference: {fileID: 0}
     - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3735,6 +3827,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (4)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -3843,6 +3939,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (3)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -3925,9 +4025,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Stone_WoodenDoor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407777385046858, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1980299660634666, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
       propertyPath: m_Name
       value: Door.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980299660634666, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1980299660634666, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
       propertyPath: m_IsActive
@@ -4050,9 +4158,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Skeleton_BoneStack (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1681745429080900, guid: 81a12ca8de8c275408c1be2ba93bb5b7, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4847494067473882, guid: 81a12ca8de8c275408c1be2ba93bb5b7, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4847494067473882, guid: 81a12ca8de8c275408c1be2ba93bb5b7, type: 3}
       propertyPath: m_LocalScale.x
@@ -4321,6 +4433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Wall_LightStick
       objectReference: {fileID: 0}
+    - target: {fileID: 1409237074301192, guid: 6dcdd798812b85b4796fb2548a3a311d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4303056760651506, guid: 6dcdd798812b85b4796fb2548a3a311d, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -4399,6 +4515,10 @@ PrefabInstance:
     - target: {fileID: 1122188628380012, guid: 805876addf2a9d44bb245f90acd502ad, type: 3}
       propertyPath: m_Name
       value: Stairs_StandAlone_Wooden_WithHandle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1122188628380012, guid: 805876addf2a9d44bb245f90acd502ad, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4208859114144656, guid: 805876addf2a9d44bb245f90acd502ad, type: 3}
       propertyPath: m_RootOrder
@@ -4479,9 +4599,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Skeleton_Bone (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1385012590202310, guid: ceba66e7108261e49bd88983ba7ab196, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4453796516099316, guid: ceba66e7108261e49bd88983ba7ab196, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4453796516099316, guid: ceba66e7108261e49bd88983ba7ab196, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4735,6 +4859,10 @@ PrefabInstance:
       value: Props_WoodenTable_B (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1050233272638936, guid: 79bda8074c13e6e4aaa97d3f1ab680a0, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1050233272638936, guid: 79bda8074c13e6e4aaa97d3f1ab680a0, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -4817,7 +4945,8 @@ GameObject:
   - component: {fileID: 437346902}
   - component: {fileID: 437346904}
   - component: {fileID: 437346903}
-  m_Layer: 0
+  - component: {fileID: 437346905}
+  m_Layer: 8
   m_Name: Door.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4889,6 +5018,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 437346901}
   m_Mesh: {fileID: 4300002, guid: 908e1d3bb7e6f104bb40ca1216e88c4e, type: 3}
+--- !u!65 &437346905
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437346901}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.28425652, y: 0.899685, z: 0.5174811}
+  m_Center: {x: 0.00000036135316, y: 0.44984257, z: -0.25000006}
 --- !u!1001 &454709046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4899,6 +5041,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -4991,6 +5137,112 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1056990807}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &467785656
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1515240173}
+    m_Modifications:
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Name
+      value: Wall_Stone_Normal (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.1027
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.0083
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+--- !u!4 &467785657 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c,
+    type: 3}
+  m_PrefabInstance: {fileID: 467785656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &467785658 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c,
+    type: 3}
+  m_PrefabInstance: {fileID: 467785656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &467785659
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467785658}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.17662124, y: 1.4444053, z: 1.955153}
+  m_Center: {x: 0, y: 0.7216968, z: 0.0000005066396}
 --- !u!1001 &473841936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4998,9 +5250,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1445734457}
     m_Modifications:
+    - target: {fileID: 1019622427557552, guid: b4f48bc2f8f17e54394afc2b5602b5f1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1692775477096746, guid: b4f48bc2f8f17e54394afc2b5602b5f1, type: 3}
       propertyPath: m_Name
       value: Props_Coffin_Stone (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1692775477096746, guid: b4f48bc2f8f17e54394afc2b5602b5f1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4040076652453058, guid: b4f48bc2f8f17e54394afc2b5602b5f1, type: 3}
       propertyPath: m_RootOrder
@@ -5080,6 +5340,10 @@ PrefabInstance:
     - target: {fileID: 1641868856143768, guid: a6708921f3701a44f976527854381306, type: 3}
       propertyPath: m_Name
       value: Props_Skeleton_Skull
+      objectReference: {fileID: 0}
+    - target: {fileID: 1641868856143768, guid: a6708921f3701a44f976527854381306, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4943443195327920, guid: a6708921f3701a44f976527854381306, type: 3}
       propertyPath: m_RootOrder
@@ -5179,6 +5443,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar_Stone (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4248846288640394, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -5258,6 +5526,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_WoodenPlank_Small
       objectReference: {fileID: 0}
+    - target: {fileID: 1409760390152630, guid: f465e0952c7b2a541bf573d5f7b1a0e8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4411225540676016, guid: f465e0952c7b2a541bf573d5f7b1a0e8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -5320,6 +5592,10 @@ PrefabInstance:
     - target: {fileID: 1792871503357756, guid: 5468182c834317a4e96f6830b1e87198, type: 3}
       propertyPath: m_Name
       value: Props_EmptyPotion
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792871503357756, guid: 5468182c834317a4e96f6830b1e87198, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1792871503357756, guid: 5468182c834317a4e96f6830b1e87198, type: 3}
       propertyPath: m_IsActive
@@ -5622,6 +5898,12 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!4 &490639895 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4364208266775728, guid: a7a9ae6be1309724e81aea94e691f57a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2092074383}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &495920194
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5632,6 +5914,10 @@ PrefabInstance:
     - target: {fileID: 1202548025183796, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
       propertyPath: m_Name
       value: Floor_3Plank_Wooden (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1202548025183796, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4665328622467176, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
       propertyPath: m_RootOrder
@@ -5711,6 +5997,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -5794,6 +6084,10 @@ PrefabInstance:
     - target: {fileID: 1645247040696762, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_Name
       value: Props_PotionSmall_Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645247040696762, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_RootOrder
@@ -5898,6 +6192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_1Plank_Stone_Small (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1712719002670224, guid: b07cad47c7d616d479d277a906a9c0d9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4930972926575764, guid: b07cad47c7d616d479d277a906a9c0d9, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -5982,6 +6280,10 @@ PrefabInstance:
     - target: {fileID: 1342278782259176, guid: 2410a0af3b049904ebdca16fced505e7, type: 3}
       propertyPath: m_Name
       value: Props_Candle 1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1342278782259176, guid: 2410a0af3b049904ebdca16fced505e7, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4610685488431642, guid: 2410a0af3b049904ebdca16fced505e7, type: 3}
       propertyPath: m_RootOrder
@@ -6170,6 +6472,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (25)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -6253,7 +6559,7 @@ GameObject:
   - component: {fileID: 549882053}
   - component: {fileID: 549882052}
   - component: {fileID: 549882051}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6356,6 +6662,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plane
       objectReference: {fileID: 0}
+    - target: {fileID: 2388924425043474713, guid: eacb75122acaf6a48a0b5e3cbb782f9a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2388924425043474715, guid: eacb75122acaf6a48a0b5e3cbb782f9a,
         type: 3}
       propertyPath: m_Enabled
@@ -6439,6 +6750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_WoodenTable_A
       objectReference: {fileID: 0}
+    - target: {fileID: 1380619667046418, guid: 6213a4f72e6abac41bfae43ebbd3e07b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4213827852679738, guid: 6213a4f72e6abac41bfae43ebbd3e07b, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -6517,6 +6832,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -6600,6 +6919,10 @@ PrefabInstance:
     - target: {fileID: 1866799315535434, guid: 61d83192deb1b4d43b7f57a9bad73512, type: 3}
       propertyPath: m_Name
       value: Props_Wall_Frame (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866799315535434, guid: 61d83192deb1b4d43b7f57a9bad73512, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4318285520637750, guid: 61d83192deb1b4d43b7f57a9bad73512, type: 3}
       propertyPath: m_RootOrder
@@ -6698,6 +7021,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_PotionSmall_Blue (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1645247040696762, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -6782,6 +7109,10 @@ PrefabInstance:
     - target: {fileID: 1326194091898034, guid: a2655653c0c92564189c81dcaddbab0e, type: 3}
       propertyPath: m_Name
       value: Props_Vase_Red (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326194091898034, guid: a2655653c0c92564189c81dcaddbab0e, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4734018171877818, guid: a2655653c0c92564189c81dcaddbab0e, type: 3}
       propertyPath: m_RootOrder
@@ -7055,6 +7386,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (20)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -7137,6 +7472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Wall_LightStick (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1409237074301192, guid: 6dcdd798812b85b4796fb2548a3a311d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4303056760651506, guid: 6dcdd798812b85b4796fb2548a3a311d, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -7215,6 +7554,10 @@ PrefabInstance:
     - target: {fileID: 1409237074301192, guid: 6dcdd798812b85b4796fb2548a3a311d, type: 3}
       propertyPath: m_Name
       value: Props_Wall_LightStick (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1409237074301192, guid: 6dcdd798812b85b4796fb2548a3a311d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4303056760651506, guid: 6dcdd798812b85b4796fb2548a3a311d, type: 3}
       propertyPath: m_RootOrder
@@ -7327,8 +7670,16 @@ PrefabInstance:
       value: Wall_Stone_WoodenDoor (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1407777385046858, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407777385046858, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980299660634666, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1980299660634666, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
       propertyPath: m_IsActive
@@ -7413,6 +7764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_WoodenChair_A
       objectReference: {fileID: 0}
+    - target: {fileID: 1658090107040842, guid: d135cb7117e54144cada4a5862c08560, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4238827022925968, guid: d135cb7117e54144cada4a5862c08560, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -7492,6 +7847,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -7577,6 +7936,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (8)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -7658,6 +8021,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -7774,6 +8141,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_1Plank_Stone_Small (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1712719002670224, guid: b07cad47c7d616d479d277a906a9c0d9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4930972926575764, guid: b07cad47c7d616d479d277a906a9c0d9, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -7872,6 +8243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_3Plank_Wooden (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1202548025183796, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4665328622467176, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -7950,6 +8325,10 @@ PrefabInstance:
     - target: {fileID: 1321917378138086, guid: 475b905fe3b32864fb3448b79d6bc815, type: 3}
       propertyPath: m_Name
       value: Floor_Tile_Stone_A (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321917378138086, guid: 475b905fe3b32864fb3448b79d6bc815, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1321917378138086, guid: 475b905fe3b32864fb3448b79d6bc815, type: 3}
       propertyPath: m_IsActive
@@ -8035,6 +8414,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (09)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -8116,6 +8499,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -8317,6 +8704,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (24)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -8399,6 +8790,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Teleportation Area
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388924425043474713, guid: eacb75122acaf6a48a0b5e3cbb782f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2388924425043474715, guid: eacb75122acaf6a48a0b5e3cbb782f9a,
         type: 3}
@@ -8493,6 +8889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_3Plank_Wooden (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1202548025183796, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4665328622467176, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -8573,12 +8973,16 @@ PrefabInstance:
       value: Props_Crate (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_TagString
       value: Crate
       objectReference: {fileID: 0}
     - target: {fileID: 4626758430679836, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 4626758430679836, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_LocalScale.x
@@ -8846,6 +9250,10 @@ PrefabInstance:
     - target: {fileID: 1037532181544640, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
       propertyPath: m_Name
       value: Props_Bowl_Red (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037532181544640, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4765295316537092, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
       propertyPath: m_RootOrder
@@ -9118,9 +9526,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Skeleton_Rib
       objectReference: {fileID: 0}
+    - target: {fileID: 1676496197657016, guid: 98b3063d9360f9045ac20df774732c86, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4839397882755874, guid: 98b3063d9360f9045ac20df774732c86, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4839397882755874, guid: 98b3063d9360f9045ac20df774732c86, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9394,7 +9806,7 @@ Transform:
   - {fileID: 937201673}
   - {fileID: 285099428}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &836553253
 PrefabInstance:
@@ -9478,10 +9890,50 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8513424388201257645, guid: 17ba18ca161d56f4eb7b52e0df76c787,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -7609145667655734672, guid: 17ba18ca161d56f4eb7b52e0df76c787,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -7235015103121818086, guid: 17ba18ca161d56f4eb7b52e0df76c787,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -3957782524123411102, guid: 17ba18ca161d56f4eb7b52e0df76c787,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -2615453208677245630, guid: 17ba18ca161d56f4eb7b52e0df76c787,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -344004081357383697, guid: 17ba18ca161d56f4eb7b52e0df76c787,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8140499575222096, guid: 17ba18ca161d56f4eb7b52e0df76c787,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 17ba18ca161d56f4eb7b52e0df76c787,
         type: 3}
       propertyPath: m_Name
       value: Key
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17ba18ca161d56f4eb7b52e0df76c787,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 17ba18ca161d56f4eb7b52e0df76c787,
         type: 3}
@@ -9762,6 +10214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Crate (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4626758430679836, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -9889,6 +10345,103 @@ MonoBehaviour:
   ClosedDoor: {fileID: 1823209726}
   OpenedDoor: {fileID: 1129583025}
   CombinationManager: {fileID: 1434919855}
+--- !u!1 &846811067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 846811068}
+  - component: {fileID: 846811071}
+  - component: {fileID: 846811070}
+  - component: {fileID: 846811069}
+  m_Layer: 8
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &846811068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846811067}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2, y: 2.672, z: -4.456}
+  m_LocalScale: {x: 4.7997627, y: 0.23711, z: 3.0402925}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1515240173}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &846811069
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846811067}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &846811070
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846811067}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &846811071
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846811067}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &858748953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9899,6 +10452,10 @@ PrefabInstance:
     - target: {fileID: 1117362481415968, guid: a4b27d1f6343596459f4f29663d21eda, type: 3}
       propertyPath: m_Name
       value: Props_WoodenPlank_Big (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117362481415968, guid: a4b27d1f6343596459f4f29663d21eda, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4646888661230560, guid: a4b27d1f6343596459f4f29663d21eda, type: 3}
       propertyPath: m_RootOrder
@@ -9978,6 +10535,10 @@ PrefabInstance:
     - target: {fileID: 1321917378138086, guid: 475b905fe3b32864fb3448b79d6bc815, type: 3}
       propertyPath: m_Name
       value: Floor_Tile_Stone_A (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321917378138086, guid: 475b905fe3b32864fb3448b79d6bc815, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1321917378138086, guid: 475b905fe3b32864fb3448b79d6bc815, type: 3}
       propertyPath: m_IsActive
@@ -10093,9 +10654,8 @@ GameObject:
   m_Component:
   - component: {fileID: 877602658}
   - component: {fileID: 877602659}
-  - component: {fileID: 877602660}
   - component: {fileID: 877602661}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Props_MakingPotion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10119,7 +10679,7 @@ Transform:
   - {fileID: 1253068347}
   - {fileID: 841118564}
   m_Father: {fileID: 285099428}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &877602659
 BoxCollider:
@@ -10134,7 +10694,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.14972925, y: 0.3913417, z: 0.20257711}
   m_Center: {x: 0.00000017881393, y: 0.19567084, z: 0.003140211}
---- !u!114 &877602660
+--- !u!114 &877602661
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10152,27 +10712,7 @@ MonoBehaviour:
   Half: 0
   Done: 0
   VaseVide: {fileID: 489388872}
-  OpenedDoor: {fileID: 0}
-  ClosedDoor: {fileID: 0}
---- !u!114 &877602661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877602657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23a1a003e8c35c84e85b97d4b91765e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Bleu: {fileID: 508513798}
-  Rouge: {fileID: 1253068346}
-  Violet: {fileID: 841118563}
-  Half: 0
-  Done: 1
-  VaseVide: {fileID: 489388872}
-  OpenedDoor: {fileID: 0}
+  OpenedDoor: {fileID: 239718773}
   ClosedDoor: {fileID: 377538116}
 --- !u!1 &879135540 stripped
 GameObject:
@@ -10192,7 +10732,7 @@ GameObject:
   - component: {fileID: 883163818}
   - component: {fileID: 883163817}
   - component: {fileID: 883163816}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10288,6 +10828,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_WoodenTable_A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1380619667046418, guid: 6213a4f72e6abac41bfae43ebbd3e07b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4213827852679738, guid: 6213a4f72e6abac41bfae43ebbd3e07b, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -10367,9 +10911,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Barrel
       objectReference: {fileID: 0}
+    - target: {fileID: 1615328391677320, guid: d0291f7f977e5864fb0f103d60bfcdb9, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4550329752422084, guid: d0291f7f977e5864fb0f103d60bfcdb9, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 4550329752422084, guid: d0291f7f977e5864fb0f103d60bfcdb9, type: 3}
       propertyPath: m_LocalScale.x
@@ -10639,6 +11187,10 @@ PrefabInstance:
       value: Props_StoneHolder (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1706781414669426, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1706781414669426, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -10722,6 +11274,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (9)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -10803,6 +11359,10 @@ PrefabInstance:
     - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
       propertyPath: m_Name
       value: Pillar_Stone (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4248846288640394, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
       propertyPath: m_RootOrder
@@ -10896,6 +11456,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Candle 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1342278782259176, guid: 2410a0af3b049904ebdca16fced505e7, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4610685488431642, guid: 2410a0af3b049904ebdca16fced505e7, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -10981,8 +11545,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.89086217, y: 0.46693915, z: 1.1937679}
-  m_Center: {x: -0.0000006854536, y: 0.2334696, z: -4.2632564e-14}
+  m_Size: {x: 0.89086217, y: 0.12476493, z: 1.1937679}
+  m_Center: {x: -0.0000006755194, y: 0.4045567, z: -4.9031824e-15}
 --- !u!1 &925949043 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c,
@@ -11075,6 +11639,10 @@ PrefabInstance:
     - target: {fileID: 1706781414669426, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
       propertyPath: m_Name
       value: Props_StoneHolder
+      objectReference: {fileID: 0}
+    - target: {fileID: 1706781414669426, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1706781414669426, guid: 1e7930c115bb2324ab4a060869e1153d, type: 3}
       propertyPath: m_IsActive
@@ -11173,6 +11741,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (10)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -11254,6 +11826,10 @@ PrefabInstance:
     - target: {fileID: 1202548025183796, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
       propertyPath: m_Name
       value: Floor_3Plank_Wooden (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1202548025183796, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4665328622467176, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
       propertyPath: m_RootOrder
@@ -11419,6 +11995,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (13)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -11506,6 +12086,10 @@ PrefabInstance:
     - target: {fileID: 1321917378138086, guid: 475b905fe3b32864fb3448b79d6bc815, type: 3}
       propertyPath: m_Name
       value: Floor_Tile_Stone_A (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321917378138086, guid: 475b905fe3b32864fb3448b79d6bc815, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1321917378138086, guid: 475b905fe3b32864fb3448b79d6bc815, type: 3}
       propertyPath: m_IsActive
@@ -11623,6 +12207,10 @@ PrefabInstance:
       value: Floor_Tile_Stone_A (7)
       objectReference: {fileID: 0}
     - target: {fileID: 1321917378138086, guid: 475b905fe3b32864fb3448b79d6bc815, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321917378138086, guid: 475b905fe3b32864fb3448b79d6bc815, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -11736,6 +12324,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -11852,6 +12444,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_1Plank_Stone_Small (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1712719002670224, guid: b07cad47c7d616d479d277a906a9c0d9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4930972926575764, guid: b07cad47c7d616d479d277a906a9c0d9, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -11945,7 +12541,7 @@ GameObject:
   - component: {fileID: 1042605749}
   - component: {fileID: 1042605748}
   - component: {fileID: 1042605747}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Props_Wall_Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12159,6 +12755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_GoldPile (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1242776226696080, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4782122063861334, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -12226,6 +12826,10 @@ PrefabInstance:
     - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
       propertyPath: m_Name
       value: Pillar_Stone (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4248846288640394, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
       propertyPath: m_RootOrder
@@ -12307,8 +12911,16 @@ PrefabInstance:
       value: Wall_Stone_WoodenDoor
       objectReference: {fileID: 0}
     - target: {fileID: 1407777385046858, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407777385046858, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980299660634666, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4252221289033446, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
       propertyPath: m_RootOrder
@@ -12388,6 +13000,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -12486,6 +13102,10 @@ PrefabInstance:
       value: Props_EmptyRedPotion
       objectReference: {fileID: 0}
     - target: {fileID: 1792871503357756, guid: 5468182c834317a4e96f6830b1e87198, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792871503357756, guid: 5468182c834317a4e96f6830b1e87198, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -12576,6 +13196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_GoldPile
       objectReference: {fileID: 0}
+    - target: {fileID: 1242776226696080, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4782122063861334, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -12654,6 +13278,10 @@ PrefabInstance:
     - target: {fileID: 1385012590202310, guid: ceba66e7108261e49bd88983ba7ab196, type: 3}
       propertyPath: m_Name
       value: Props_Skeleton_Bone (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385012590202310, guid: ceba66e7108261e49bd88983ba7ab196, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4453796516099316, guid: ceba66e7108261e49bd88983ba7ab196, type: 3}
       propertyPath: m_RootOrder
@@ -12932,7 +13560,7 @@ Transform:
   - {fileID: 1445734457}
   - {fileID: 1515240173}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1107903300
 PrefabInstance:
@@ -12944,6 +13572,10 @@ PrefabInstance:
     - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
       propertyPath: m_Name
       value: Pillar_Stone (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4248846288640394, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
       propertyPath: m_RootOrder
@@ -13023,6 +13655,10 @@ PrefabInstance:
     - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
       propertyPath: m_Name
       value: Pillar_Stone (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4248846288640394, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
       propertyPath: m_RootOrder
@@ -13110,12 +13746,16 @@ PrefabInstance:
       value: Props_Vase_Purple
       objectReference: {fileID: 0}
     - target: {fileID: 1705485055355920, guid: 4a37330a454343646b36d9e7a99287a3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1705485055355920, guid: 4a37330a454343646b36d9e7a99287a3, type: 3}
       propertyPath: m_TagString
       value: Vase
       objectReference: {fileID: 0}
     - target: {fileID: 4654671667363540, guid: 4a37330a454343646b36d9e7a99287a3, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4654671667363540, guid: 4a37330a454343646b36d9e7a99287a3, type: 3}
       propertyPath: m_LocalScale.x
@@ -13135,7 +13775,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654671667363540, guid: 4a37330a454343646b36d9e7a99287a3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.9254153
+      value: 1.967
       objectReference: {fileID: 0}
     - target: {fileID: 4654671667363540, guid: 4a37330a454343646b36d9e7a99287a3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13384,6 +14024,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar_Stone (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4248846288640394, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -13476,7 +14120,8 @@ GameObject:
   - component: {fileID: 1129583026}
   - component: {fileID: 1129583028}
   - component: {fileID: 1129583027}
-  m_Layer: 0
+  - component: {fileID: 1129583029}
+  m_Layer: 8
   m_Name: Door.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13548,6 +14193,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1129583025}
   m_Mesh: {fileID: 4300002, guid: 908e1d3bb7e6f104bb40ca1216e88c4e, type: 3}
+--- !u!65 &1129583029
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129583025}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2842565, y: 0.899685, z: 0.517481}
+  m_Center: {x: 0.00000011920929, y: 0.44984242, z: -0.24999991}
 --- !u!1001 &1162532907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13558,6 +14216,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -13679,6 +14341,10 @@ PrefabInstance:
     - target: {fileID: 1326194091898034, guid: a2655653c0c92564189c81dcaddbab0e, type: 3}
       propertyPath: m_Name
       value: Props_Vase_Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326194091898034, guid: a2655653c0c92564189c81dcaddbab0e, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4734018171877818, guid: a2655653c0c92564189c81dcaddbab0e, type: 3}
       propertyPath: m_RootOrder
@@ -13951,6 +14617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Pail (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1947533218949664, guid: 0aef1918dfffe17469df7e18774106be, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4606027223887464, guid: 0aef1918dfffe17469df7e18774106be, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -14054,6 +14724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar_Stone (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4248846288640394, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -14132,6 +14806,14 @@ PrefabInstance:
     - target: {fileID: 1550561293911928, guid: 764de3605a1240a49b6fea00321a76a6, type: 3}
       propertyPath: m_Name
       value: Props_Coffin_Stone_WithCross
+      objectReference: {fileID: 0}
+    - target: {fileID: 1550561293911928, guid: 764de3605a1240a49b6fea00321a76a6, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919053376404110, guid: 764de3605a1240a49b6fea00321a76a6, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4425517968704684, guid: 764de3605a1240a49b6fea00321a76a6, type: 3}
       propertyPath: m_RootOrder
@@ -14272,6 +14954,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Candle 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1342278782259176, guid: 2410a0af3b049904ebdca16fced505e7, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4610685488431642, guid: 2410a0af3b049904ebdca16fced505e7, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -14338,6 +15024,10 @@ PrefabInstance:
     - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
       propertyPath: m_Name
       value: Pillar_Stone (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4248846288640394, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
       propertyPath: m_RootOrder
@@ -14476,6 +15166,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (10)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -14564,12 +15258,16 @@ PrefabInstance:
       value: Props_Crate
       objectReference: {fileID: 0}
     - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_TagString
       value: Crate
       objectReference: {fileID: 0}
     - target: {fileID: 4626758430679836, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 4626758430679836, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_LocalScale.x
@@ -14837,6 +15535,10 @@ PrefabInstance:
     - target: {fileID: 1326194091898034, guid: a2655653c0c92564189c81dcaddbab0e, type: 3}
       propertyPath: m_Name
       value: Props_Vase_Red (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326194091898034, guid: a2655653c0c92564189c81dcaddbab0e, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4734018171877818, guid: a2655653c0c92564189c81dcaddbab0e, type: 3}
       propertyPath: m_RootOrder
@@ -15109,6 +15811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_WoodenTable_A
       objectReference: {fileID: 0}
+    - target: {fileID: 1380619667046418, guid: 6213a4f72e6abac41bfae43ebbd3e07b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4213827852679738, guid: 6213a4f72e6abac41bfae43ebbd3e07b, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -15316,6 +16022,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Crate (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4626758430679836, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -15408,6 +16118,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.4311596, y: 0.43115848, z: 0.43115827}
   m_Center: {x: -0.000030479341, y: 0.21558304, z: -0.0000019089548}
+--- !u!4 &1339050524 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4483261718543978, guid: 1e7930c115bb2324ab4a060869e1153d,
+    type: 3}
+  m_PrefabInstance: {fileID: 305754710}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1343460517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15418,6 +16134,10 @@ PrefabInstance:
     - target: {fileID: 1645247040696762, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_Name
       value: Props_PotionSmall_Blue (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645247040696762, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_RootOrder
@@ -15689,6 +16409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Skeleton_Bone (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1385012590202310, guid: ceba66e7108261e49bd88983ba7ab196, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4453796516099316, guid: ceba66e7108261e49bd88983ba7ab196, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -15944,6 +16668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Skeleton_Rib
       objectReference: {fileID: 0}
+    - target: {fileID: 1676496197657016, guid: 98b3063d9360f9045ac20df774732c86, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4839397882755874, guid: 98b3063d9360f9045ac20df774732c86, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -16022,6 +16750,10 @@ PrefabInstance:
     - target: {fileID: 1645247040696762, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_Name
       value: Props_PotionSmall_Blue (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645247040696762, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_RootOrder
@@ -16334,6 +17066,10 @@ PrefabInstance:
       value: Props_Wall_Frame
       objectReference: {fileID: 0}
     - target: {fileID: 1866799315535434, guid: 61d83192deb1b4d43b7f57a9bad73512, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866799315535434, guid: 61d83192deb1b4d43b7f57a9bad73512, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -16415,6 +17151,10 @@ PrefabInstance:
     - target: {fileID: 1712719002670224, guid: b07cad47c7d616d479d277a906a9c0d9, type: 3}
       propertyPath: m_Name
       value: Floor_1Plank_Stone_Small (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712719002670224, guid: b07cad47c7d616d479d277a906a9c0d9, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4930972926575764, guid: b07cad47c7d616d479d277a906a9c0d9, type: 3}
       propertyPath: m_RootOrder
@@ -16508,6 +17248,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Candle_Fivestick
       objectReference: {fileID: 0}
+    - target: {fileID: 1354111386606502, guid: ce232cf78c8168444b76d824e74bfabd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4471790447988124, guid: ce232cf78c8168444b76d824e74bfabd, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -16570,6 +17314,10 @@ PrefabInstance:
     - target: {fileID: 1202548025183796, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
       propertyPath: m_Name
       value: Floor_3Plank_Wooden (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1202548025183796, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4665328622467176, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
       propertyPath: m_RootOrder
@@ -16651,12 +17399,20 @@ PrefabInstance:
       value: Wall_Stone_WoodenDoor (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1407777385046858, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407777385046858, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1980299660634666, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
       propertyPath: m_Name
       value: Door.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980299660634666, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1980299660634666, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
       propertyPath: m_IsActive
@@ -16799,7 +17555,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1434919859
 MonoBehaviour:
@@ -16824,6 +17580,10 @@ PrefabInstance:
     - target: {fileID: 1658090107040842, guid: d135cb7117e54144cada4a5862c08560, type: 3}
       propertyPath: m_Name
       value: Props_WoodenChair_A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658090107040842, guid: d135cb7117e54144cada4a5862c08560, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4238827022925968, guid: d135cb7117e54144cada4a5862c08560, type: 3}
       propertyPath: m_RootOrder
@@ -16891,6 +17651,10 @@ PrefabInstance:
     - target: {fileID: 1712719002670224, guid: b07cad47c7d616d479d277a906a9c0d9, type: 3}
       propertyPath: m_Name
       value: Floor_1Plank_Stone_Small (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712719002670224, guid: b07cad47c7d616d479d277a906a9c0d9, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4930972926575764, guid: b07cad47c7d616d479d277a906a9c0d9, type: 3}
       propertyPath: m_RootOrder
@@ -17034,6 +17798,7 @@ Transform:
   - {fileID: 634087511}
   - {fileID: 4014733576038123}
   - {fileID: 4040077187805247}
+  - {fileID: 1339050524}
   m_Father: {fileID: 1106917875}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17047,6 +17812,10 @@ PrefabInstance:
     - target: {fileID: 1645247040696762, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_Name
       value: Props_PotionSmall_Blue (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645247040696762, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_RootOrder
@@ -17217,9 +17986,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Stone_WoodenDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 1407777385046858, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1980299660634666, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
       propertyPath: m_Name
       value: Door.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980299660634666, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1980299660634666, guid: e95a480556ce77345b2be1163d17a4be, type: 3}
       propertyPath: m_IsActive
@@ -17331,6 +18108,104 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.35771593, y: 0.8996851, z: 0.51748097}
   m_Center: {x: 0.0367296, y: 0.44984254, z: -0.24999996}
+--- !u!1 &1467608223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1467608224}
+  - component: {fileID: 1467608227}
+  - component: {fileID: 1467608226}
+  - component: {fileID: 1467608225}
+  m_Layer: 8
+  m_Name: ww
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1467608224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467608223}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -9.19, y: 4.23, z: -3.94}
+  m_LocalScale: {x: 0.2332, y: 1, z: 0.27798}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1515240173}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!64 &1467608225
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467608223}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1467608226
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467608223}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 311b8b68ab1ab014dba0922b0d59d6fc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1467608227
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467608223}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1479213088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17341,6 +18216,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -17439,6 +18318,10 @@ PrefabInstance:
       value: Pillar_Stone (3)
       objectReference: {fileID: 0}
     - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -17509,6 +18392,10 @@ PrefabInstance:
     - target: {fileID: 1658090107040842, guid: d135cb7117e54144cada4a5862c08560, type: 3}
       propertyPath: m_Name
       value: Props_WoodenChair_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658090107040842, guid: d135cb7117e54144cada4a5862c08560, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1658090107040842, guid: d135cb7117e54144cada4a5862c08560, type: 3}
       propertyPath: m_IsActive
@@ -17606,9 +18493,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Skeleton_Bone (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1385012590202310, guid: ceba66e7108261e49bd88983ba7ab196, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4453796516099316, guid: ceba66e7108261e49bd88983ba7ab196, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 4453796516099316, guid: ceba66e7108261e49bd88983ba7ab196, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17862,6 +18753,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (18)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -17943,6 +18838,10 @@ PrefabInstance:
     - target: {fileID: 1947533218949664, guid: 0aef1918dfffe17469df7e18774106be, type: 3}
       propertyPath: m_Name
       value: Props_Pail
+      objectReference: {fileID: 0}
+    - target: {fileID: 1947533218949664, guid: 0aef1918dfffe17469df7e18774106be, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4606027223887464, guid: 0aef1918dfffe17469df7e18774106be, type: 3}
       propertyPath: m_RootOrder
@@ -18041,6 +18940,10 @@ PrefabInstance:
     - target: {fileID: 1645247040696762, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_Name
       value: Props_PotionSmall_Blue (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645247040696762, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_RootOrder
@@ -18197,7 +19100,9 @@ Transform:
   - {fileID: 2075186901}
   - {fileID: 454709047}
   - {fileID: 1892923959}
-  - {fileID: 1804178549}
+  - {fileID: 467785657}
+  - {fileID: 846811068}
+  - {fileID: 1467608224}
   m_Father: {fileID: 1106917875}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18252,6 +19157,10 @@ PrefabInstance:
     - target: {fileID: 1122188628380012, guid: 805876addf2a9d44bb245f90acd502ad, type: 3}
       propertyPath: m_Name
       value: Stairs_StandAlone_Wooden_WithHandle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1122188628380012, guid: 805876addf2a9d44bb245f90acd502ad, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4208859114144656, guid: 805876addf2a9d44bb245f90acd502ad, type: 3}
       propertyPath: m_RootOrder
@@ -18362,6 +19271,10 @@ PrefabInstance:
     - target: {fileID: 1409237074301192, guid: 6dcdd798812b85b4796fb2548a3a311d, type: 3}
       propertyPath: m_Name
       value: Props_Wall_LightStick (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1409237074301192, guid: 6dcdd798812b85b4796fb2548a3a311d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4303056760651506, guid: 6dcdd798812b85b4796fb2548a3a311d, type: 3}
       propertyPath: m_RootOrder
@@ -18535,12 +19448,16 @@ PrefabInstance:
       value: Props_Pail 1
       objectReference: {fileID: 0}
     - target: {fileID: 1688414445001906, guid: 080873035488e7646b854157918d1e90, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1688414445001906, guid: 080873035488e7646b854157918d1e90, type: 3}
       propertyPath: m_TagString
       value: Pail
       objectReference: {fileID: 0}
     - target: {fileID: 4648023653520484, guid: 080873035488e7646b854157918d1e90, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 4648023653520484, guid: 080873035488e7646b854157918d1e90, type: 3}
       propertyPath: m_LocalScale.x
@@ -18808,6 +19725,10 @@ PrefabInstance:
     - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_Name
       value: Props_Crate (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4626758430679836, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_RootOrder
@@ -19498,9 +20419,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Barrel (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1615328391677320, guid: d0291f7f977e5864fb0f103d60bfcdb9, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4550329752422084, guid: d0291f7f977e5864fb0f103d60bfcdb9, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4550329752422084, guid: d0291f7f977e5864fb0f103d60bfcdb9, type: 3}
       propertyPath: m_LocalScale.x
@@ -19768,6 +20693,10 @@ PrefabInstance:
     - target: {fileID: 1037532181544640, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
       propertyPath: m_Name
       value: Props_Bowl_Red (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037532181544640, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4765295316537092, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
       propertyPath: m_RootOrder
@@ -20045,6 +20974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Wall_Frame (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1866799315535434, guid: 61d83192deb1b4d43b7f57a9bad73512, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4318285520637750, guid: 61d83192deb1b4d43b7f57a9bad73512, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -20123,6 +21056,10 @@ PrefabInstance:
     - target: {fileID: 1037532181544640, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
       propertyPath: m_Name
       value: Props_Bowl_Red (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037532181544640, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4765295316537092, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
       propertyPath: m_RootOrder
@@ -20209,7 +21146,7 @@ GameObject:
   - component: {fileID: 1592710607}
   - component: {fileID: 1592710606}
   - component: {fileID: 1592710605}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20537,6 +21474,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_WoodenPlank_Big
       objectReference: {fileID: 0}
+    - target: {fileID: 1117362481415968, guid: a4b27d1f6343596459f4f29663d21eda, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4646888661230560, guid: a4b27d1f6343596459f4f29663d21eda, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -20655,6 +21596,10 @@ PrefabInstance:
       value: Props_WoodenTable_B (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1050233272638936, guid: 79bda8074c13e6e4aaa97d3f1ab680a0, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1050233272638936, guid: 79bda8074c13e6e4aaa97d3f1ab680a0, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -20737,8 +21682,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.89086217, y: 0.46693915, z: 1.1937679}
-  m_Center: {x: -0.0000009536745, y: 0.2334696, z: -0.00000011920933}
+  m_Size: {x: 0.89086217, y: 0.13623978, z: 1.1937679}
+  m_Center: {x: -0.0000009536744, y: 0.39881924, z: -0.0000001192093}
 --- !u!1001 &1636222475
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20749,6 +21694,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -20845,6 +21794,10 @@ PrefabInstance:
     - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_Name
       value: Props_Crate (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4626758430679836, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_RootOrder
@@ -20943,11 +21896,15 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 285099428}
     m_Modifications:
     - target: {fileID: 1645247040696762, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_Name
       value: Props_PotionSmall_Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645247040696762, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1645247040696762, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_TagString
@@ -20955,7 +21912,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_LocalScale.x
@@ -20971,15 +21928,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.75
+      value: -6.7903376
       objectReference: {fileID: 0}
     - target: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.1588736
+      value: 1.866874
       objectReference: {fileID: 0}
     - target: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.72
+      value: 4.473209
       objectReference: {fileID: 0}
     - target: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20987,15 +21944,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4027607600193846, guid: 7960fe5fcaa206648ac0ee4c8975aaba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -21050,6 +22007,10 @@ PrefabInstance:
     - target: {fileID: 1712719002670224, guid: b07cad47c7d616d479d277a906a9c0d9, type: 3}
       propertyPath: m_Name
       value: Floor_1Plank_Stone_Small (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712719002670224, guid: b07cad47c7d616d479d277a906a9c0d9, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4930972926575764, guid: b07cad47c7d616d479d277a906a9c0d9, type: 3}
       propertyPath: m_RootOrder
@@ -21144,6 +22105,10 @@ PrefabInstance:
       value: Props_EmptyBluePotion
       objectReference: {fileID: 0}
     - target: {fileID: 1792871503357756, guid: 5468182c834317a4e96f6830b1e87198, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792871503357756, guid: 5468182c834317a4e96f6830b1e87198, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -21233,6 +22198,10 @@ PrefabInstance:
     - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_Name
       value: Props_Crate (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4626758430679836, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_RootOrder
@@ -21495,6 +22464,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (28)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -21576,6 +22549,10 @@ PrefabInstance:
     - target: {fileID: 1202548025183796, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
       propertyPath: m_Name
       value: Floor_3Plank_Wooden
+      objectReference: {fileID: 0}
+    - target: {fileID: 1202548025183796, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4665328622467176, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
       propertyPath: m_RootOrder
@@ -21688,6 +22665,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_GoldPile (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1242776226696080, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4782122063861334, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -21767,6 +22748,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_WoodenChair_A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1658090107040842, guid: d135cb7117e54144cada4a5862c08560, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4238827022925968, guid: d135cb7117e54144cada4a5862c08560, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -21845,6 +22830,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -21942,6 +22931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_GoldPile (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1242776226696080, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4782122063861334, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -22004,6 +22997,10 @@ PrefabInstance:
     - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
       propertyPath: m_Name
       value: Pillar_Stone (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
       propertyPath: m_IsActive
@@ -22084,7 +23081,7 @@ GameObject:
   - component: {fileID: 1758916332}
   - component: {fileID: 1758916331}
   - component: {fileID: 1758916330}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: XR Origin (Player)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22153,7 +23150,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758916329}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 919e39492806b334982b6b84c90dd927, type: 3}
   m_Name: 
@@ -22211,7 +23208,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758916329}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0bf296fc962d7184ab14ad1841598d5f, type: 3}
   m_Name: 
@@ -22308,7 +23305,7 @@ Transform:
   m_Children:
   - {fileID: 1518321262}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &1760621601
 PrefabInstance:
@@ -22320,6 +23317,10 @@ PrefabInstance:
     - target: {fileID: 1202548025183796, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
       propertyPath: m_Name
       value: Floor_3Plank_Wooden (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1202548025183796, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4665328622467176, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
       propertyPath: m_RootOrder
@@ -22414,6 +23415,10 @@ PrefabInstance:
       value: Pillar_Stone (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048753352154994, guid: 296fc91a20f2cfe4c97182c3c87b9aca, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -22485,9 +23490,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Skeleton_BoneStack (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1681745429080900, guid: 81a12ca8de8c275408c1be2ba93bb5b7, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4847494067473882, guid: 81a12ca8de8c275408c1be2ba93bb5b7, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4847494067473882, guid: 81a12ca8de8c275408c1be2ba93bb5b7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22739,6 +23748,10 @@ PrefabInstance:
     - target: {fileID: 1641868856143768, guid: a6708921f3701a44f976527854381306, type: 3}
       propertyPath: m_Name
       value: Props_Skeleton_Skull
+      objectReference: {fileID: 0}
+    - target: {fileID: 1641868856143768, guid: a6708921f3701a44f976527854381306, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1641868856143768, guid: a6708921f3701a44f976527854381306, type: 3}
       propertyPath: m_TagString
@@ -23004,108 +24017,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.45717615, y: 0.3568371, z: 0.4315976}
   m_Center: {x: -0.00000012665987, y: 0.17841846, z: 0}
---- !u!1001 &1804178548
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1515240173}
-    m_Modifications:
-    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
-      propertyPath: m_Name
-      value: Wall_Stone_Normal (18)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
-      propertyPath: m_RootOrder
-      value: 34
-      objectReference: {fileID: 0}
-    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9575863
-      objectReference: {fileID: 0}
-    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 5.3900013
-      objectReference: {fileID: 0}
-    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
---- !u!4 &1804178549 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1804178548}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1804178550 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1804178548}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1804178551
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1804178550}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.17662124, y: 1.4444053, z: 1.955153}
-  m_Center: {x: 0, y: 0.7216968, z: 0.0000005066396}
 --- !u!1 &1805435676 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1202548025183796, guid: 3e478002b47486d4f950d8cfd1d23557,
@@ -23136,9 +24047,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Sword
       objectReference: {fileID: 0}
+    - target: {fileID: 1992893538991338, guid: d89394273f1af654aa51cffdd5422cf5, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4687130163925674, guid: d89394273f1af654aa51cffdd5422cf5, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4687130163925674, guid: d89394273f1af654aa51cffdd5422cf5, type: 3}
       propertyPath: m_LocalScale.x
@@ -23408,6 +24323,10 @@ PrefabInstance:
       value: Floor_Tile_Stone_A (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1321917378138086, guid: 475b905fe3b32864fb3448b79d6bc815, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321917378138086, guid: 475b905fe3b32864fb3448b79d6bc815, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -23508,6 +24427,10 @@ PrefabInstance:
     - target: {fileID: 1541889192079016, guid: d83500429c9ab314aad0bd5acaa3d13a, type: 3}
       propertyPath: m_Name
       value: Props_Candle_Threestick
+      objectReference: {fileID: 0}
+    - target: {fileID: 1541889192079016, guid: d83500429c9ab314aad0bd5acaa3d13a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4113889619600446, guid: d83500429c9ab314aad0bd5acaa3d13a, type: 3}
       propertyPath: m_RootOrder
@@ -23774,9 +24697,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Skeleton_Bone
       objectReference: {fileID: 0}
+    - target: {fileID: 1385012590202310, guid: ceba66e7108261e49bd88983ba7ab196, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4453796516099316, guid: ceba66e7108261e49bd88983ba7ab196, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 4453796516099316, guid: ceba66e7108261e49bd88983ba7ab196, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24030,6 +24957,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plane
       objectReference: {fileID: 0}
+    - target: {fileID: 2388924425043474713, guid: eacb75122acaf6a48a0b5e3cbb782f9a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2388924425043474715, guid: eacb75122acaf6a48a0b5e3cbb782f9a,
         type: 3}
       propertyPath: m_Enabled
@@ -24113,9 +25045,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Barrel (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1615328391677320, guid: d0291f7f977e5864fb0f103d60bfcdb9, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4550329752422084, guid: d0291f7f977e5864fb0f103d60bfcdb9, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 4550329752422084, guid: d0291f7f977e5864fb0f103d60bfcdb9, type: 3}
       propertyPath: m_LocalScale.x
@@ -24391,6 +25327,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1431248052}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1823209730
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823209726}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.28425646, y: 0.899685, z: 0.51748097}
+  m_Center: {x: 0, y: 0.44984242, z: -0.25}
 --- !u!1 &1838393967 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c,
@@ -24407,6 +25356,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -24510,6 +25463,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (22)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -24606,6 +25563,10 @@ PrefabInstance:
       value: Floor_Tile_Stone_A (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1321917378138086, guid: 475b905fe3b32864fb3448b79d6bc815, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321917378138086, guid: 475b905fe3b32864fb3448b79d6bc815, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -24687,6 +25648,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -24802,6 +25767,10 @@ PrefabInstance:
     - target: {fileID: 1326194091898034, guid: a2655653c0c92564189c81dcaddbab0e, type: 3}
       propertyPath: m_Name
       value: Props_Vase_Red (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326194091898034, guid: a2655653c0c92564189c81dcaddbab0e, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4734018171877818, guid: a2655653c0c92564189c81dcaddbab0e, type: 3}
       propertyPath: m_RootOrder
@@ -25119,6 +26088,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stairs_StandAlone_Wooden_WithHandle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1122188628380012, guid: 805876addf2a9d44bb245f90acd502ad, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4208859114144656, guid: 805876addf2a9d44bb245f90acd502ad, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -25224,6 +26197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_GoldPile (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1242776226696080, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4782122063861334, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -25291,6 +26268,10 @@ PrefabInstance:
     - target: {fileID: 1866799315535434, guid: 61d83192deb1b4d43b7f57a9bad73512, type: 3}
       propertyPath: m_Name
       value: Props_Wall_Frame (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866799315535434, guid: 61d83192deb1b4d43b7f57a9bad73512, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1866799315535434, guid: 61d83192deb1b4d43b7f57a9bad73512, type: 3}
       propertyPath: m_IsActive
@@ -25376,7 +26357,7 @@ GameObject:
   - component: {fileID: 1906189897}
   - component: {fileID: 1906189896}
   - component: {fileID: 1906189895}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25491,6 +26472,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -25666,9 +26651,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Skeleton_BoneStack
       objectReference: {fileID: 0}
+    - target: {fileID: 1681745429080900, guid: 81a12ca8de8c275408c1be2ba93bb5b7, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4847494067473882, guid: 81a12ca8de8c275408c1be2ba93bb5b7, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4847494067473882, guid: 81a12ca8de8c275408c1be2ba93bb5b7, type: 3}
       propertyPath: m_LocalScale.x
@@ -25937,6 +26926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Bowl_Red (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1037532181544640, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4765295316537092, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -26020,6 +27013,10 @@ PrefabInstance:
     - target: {fileID: 1409237074301192, guid: 6dcdd798812b85b4796fb2548a3a311d, type: 3}
       propertyPath: m_Name
       value: Props_Wall_LightStick (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1409237074301192, guid: 6dcdd798812b85b4796fb2548a3a311d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4303056760651506, guid: 6dcdd798812b85b4796fb2548a3a311d, type: 3}
       propertyPath: m_RootOrder
@@ -26157,6 +27154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_GoldPile (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1242776226696080, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4782122063861334, guid: 3283d79c16b08544894c4416b9eecfc8, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -26254,6 +27255,10 @@ PrefabInstance:
     - target: {fileID: 1202548025183796, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
       propertyPath: m_Name
       value: Floor_3Plank_Wooden (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1202548025183796, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4665328622467176, guid: 3e478002b47486d4f950d8cfd1d23557, type: 3}
       propertyPath: m_RootOrder
@@ -26450,6 +27455,10 @@ PrefabInstance:
       value: Wall_Stone_Normal (14)
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -26544,6 +27553,10 @@ PrefabInstance:
     - target: {fileID: 1792871503357756, guid: 5468182c834317a4e96f6830b1e87198, type: 3}
       propertyPath: m_Name
       value: Props_EmptyPurplePotion
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792871503357756, guid: 5468182c834317a4e96f6830b1e87198, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1792871503357756, guid: 5468182c834317a4e96f6830b1e87198, type: 3}
       propertyPath: m_IsActive
@@ -26655,29 +27668,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Crate
       objectReference: {fileID: 0}
+    - target: {fileID: 1094604788534416, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4626758430679836, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_RootOrder
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4626758430679836, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.4
+      value: 5.25668
       objectReference: {fileID: 0}
     - target: {fileID: 4626758430679836, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.7414282
+      value: 0.88578427
       objectReference: {fileID: 0}
     - target: {fileID: 4626758430679836, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_LocalScale.z
-      value: 4.4
+      value: 5.25668
       objectReference: {fileID: 0}
     - target: {fileID: 4626758430679836, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.396928
+      value: -9.26
       objectReference: {fileID: 0}
     - target: {fileID: 4626758430679836, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5783463
+      value: 2.5472
       objectReference: {fileID: 0}
     - target: {fileID: 4626758430679836, guid: da853aa377ddc374d9acfb57eaa30736, type: 3}
       propertyPath: m_LocalPosition.z
@@ -26793,6 +27810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_1Plank_Stone_Small
       objectReference: {fileID: 0}
+    - target: {fileID: 1712719002670224, guid: b07cad47c7d616d479d277a906a9c0d9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4930972926575764, guid: b07cad47c7d616d479d277a906a9c0d9, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -26885,6 +27906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_WoodenPlank_Small (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1409760390152630, guid: f465e0952c7b2a541bf573d5f7b1a0e8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4411225540676016, guid: f465e0952c7b2a541bf573d5f7b1a0e8, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -26966,6 +27991,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -27063,6 +28092,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_Wall_LightStick (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1409237074301192, guid: 6dcdd798812b85b4796fb2548a3a311d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4303056760651506, guid: 6dcdd798812b85b4796fb2548a3a311d, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -27155,11 +28188,15 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 285099428}
     m_Modifications:
     - target: {fileID: 1285016284248652, guid: a7a9ae6be1309724e81aea94e691f57a, type: 3}
       propertyPath: m_Name
       value: Props_PotionSmall_Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285016284248652, guid: a7a9ae6be1309724e81aea94e691f57a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1285016284248652, guid: a7a9ae6be1309724e81aea94e691f57a, type: 3}
       propertyPath: m_TagString
@@ -27167,7 +28204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4364208266775728, guid: a7a9ae6be1309724e81aea94e691f57a, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 4364208266775728, guid: a7a9ae6be1309724e81aea94e691f57a, type: 3}
       propertyPath: m_LocalScale.x
@@ -27183,15 +28220,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4364208266775728, guid: a7a9ae6be1309724e81aea94e691f57a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.428
+      value: -6.4683375
       objectReference: {fileID: 0}
     - target: {fileID: 4364208266775728, guid: a7a9ae6be1309724e81aea94e691f57a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.1588736
+      value: 1.825289
       objectReference: {fileID: 0}
     - target: {fileID: 4364208266775728, guid: a7a9ae6be1309724e81aea94e691f57a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.255
+      value: -2.9917908
       objectReference: {fileID: 0}
     - target: {fileID: 4364208266775728, guid: a7a9ae6be1309724e81aea94e691f57a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -27199,15 +28236,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4364208266775728, guid: a7a9ae6be1309724e81aea94e691f57a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4364208266775728, guid: a7a9ae6be1309724e81aea94e691f57a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4364208266775728, guid: a7a9ae6be1309724e81aea94e691f57a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4364208266775728, guid: a7a9ae6be1309724e81aea94e691f57a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -27237,6 +28274,10 @@ PrefabInstance:
     - target: {fileID: 1050233272638936, guid: 79bda8074c13e6e4aaa97d3f1ab680a0, type: 3}
       propertyPath: m_Name
       value: Props_WoodenTable_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 1050233272638936, guid: 79bda8074c13e6e4aaa97d3f1ab680a0, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1050233272638936, guid: 79bda8074c13e6e4aaa97d3f1ab680a0, type: 3}
       propertyPath: m_IsActive
@@ -27321,8 +28362,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8908618, y: 0.46693912, z: 1.1937678}
-  m_Center: {x: -0.0000004935988, y: 0.23346974, z: -0.00000010529341}
+  m_Size: {x: 0.89086187, y: 0.114062265, z: 1.1937678}
+  m_Center: {x: -0.00000047683716, y: 0.40990818, z: -0.00000013179407}
 --- !u!1001 &2096090294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27333,6 +28374,10 @@ PrefabInstance:
     - target: {fileID: 1342278782259176, guid: 2410a0af3b049904ebdca16fced505e7, type: 3}
       propertyPath: m_Name
       value: Props_Candle 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1342278782259176, guid: 2410a0af3b049904ebdca16fced505e7, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4610685488431642, guid: 2410a0af3b049904ebdca16fced505e7, type: 3}
       propertyPath: m_RootOrder
@@ -27412,6 +28457,10 @@ PrefabInstance:
     - target: {fileID: 1037532181544640, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
       propertyPath: m_Name
       value: Props_Bowl_Red (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037532181544640, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4765295316537092, guid: 30d542452997d4a4d89592c34cb6d050, type: 3}
       propertyPath: m_RootOrder
@@ -27729,6 +28778,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 668016382}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2107041743
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107041739}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.28425652, y: 0.899685, z: 0.5174811}
+  m_Center: {x: -0.00000023841858, y: 0.44984257, z: -0.25}
 --- !u!1001 &2131079908
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27739,6 +28801,10 @@ PrefabInstance:
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_Name
       value: Wall_Stone_Normal (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1784612528550548, guid: 2d0f20d11945dcf40bc89cbe6339221c, type: 3}
       propertyPath: m_IsActive
@@ -27858,7 +28924,7 @@ GameObject:
   - component: {fileID: 33838971048448659}
   - component: {fileID: 33838971048448658}
   - component: {fileID: 33838971048448660}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CoffinCover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27879,7 +28945,7 @@ GameObject:
   - component: {fileID: 33838970356471194}
   - component: {fileID: 33838970356471193}
   - component: {fileID: 33838970356471192}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CoffinCover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27897,7 +28963,7 @@ GameObject:
   - component: {fileID: 4014734112535556}
   - component: {fileID: 33713915475566738}
   - component: {fileID: 23584378265459214}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Props_Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27919,7 +28985,7 @@ GameObject:
   - component: {fileID: 33713914938618495}
   - component: {fileID: 33713914938618494}
   - component: {fileID: 33713914938618497}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Props_Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27937,7 +29003,8 @@ GameObject:
   - component: {fileID: 4040076336379705}
   - component: {fileID: 33226900004566749}
   - component: {fileID: 23081090425203535}
-  m_Layer: 0
+  - component: {fileID: 33226900004566750}
+  m_Layer: 8
   m_Name: Props_Coffin_Stone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27957,7 +29024,7 @@ GameObject:
   - component: {fileID: 23081091780013129}
   - component: {fileID: 33226901359407581}
   - component: {fileID: 33226901359407580}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Props_Coffin_Stone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27978,7 +29045,7 @@ GameObject:
   - component: {fileID: 33007047681744781}
   - component: {fileID: 33007047681744780}
   - component: {fileID: 33007047681744779}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ChestCover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27999,7 +29066,7 @@ GameObject:
   - component: {fileID: 33007047144918375}
   - component: {fileID: 33007047144918374}
   - component: {fileID: 33007047144918376}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ChestCover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28019,7 +29086,7 @@ GameObject:
   - component: {fileID: 23841409568723596}
   - component: {fileID: 1551643356}
   - component: {fileID: 33469945028054555}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall_Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28923,6 +29990,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1692776394005201}
   m_Mesh: {fileID: 4300000, guid: 458a648ba3c812643b3bd0d730b1e75a, type: 3}
+--- !u!65 &33226900004566750
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692776394005201}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9895264, y: 0.13109207, z: 0.7069769}
+  m_Center: {x: -0.0000004768371, y: 0.065546036, z: -0.00000023841854}
 --- !u!33 &33226901359407579
 MeshFilter:
   m_ObjectHideFlags: 0

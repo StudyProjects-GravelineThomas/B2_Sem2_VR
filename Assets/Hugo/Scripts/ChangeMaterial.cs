@@ -8,7 +8,7 @@ public class ChangeMaterial : MonoBehaviour
     public GameObject Rouge;
     public GameObject Violet;
     public bool Half;
-    public bool Done = true;
+    public bool Done = false;
     public GameObject VaseVide;
     public GameObject OpenedDoor;
     public GameObject ClosedDoor;
@@ -46,6 +46,7 @@ public class ChangeMaterial : MonoBehaviour
                 if (Half == true)
                 {
                     Violet.SetActive(true);
+                    Done = true;
                     ClosedDoor.SetActive(false);
                     OpenedDoor.SetActive(true);
                     /*VaseVide.GetComponent<MeshRenderer> ().material = Violet;
