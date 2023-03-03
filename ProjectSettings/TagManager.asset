@@ -13,6 +13,11 @@ TagManager:
   - Key
   - BlueVase
   - RedVase
+  - Cube
+  - CubeRouge
+  - CubeJaune
+  - CubeVert
+  - CubeBleu
   layers:
   - Default
   - TransparentFX
