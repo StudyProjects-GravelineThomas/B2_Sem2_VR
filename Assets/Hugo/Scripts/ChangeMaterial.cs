@@ -22,6 +22,7 @@ public class ChangeMaterial : MonoBehaviour
                 if (Half == true)
                 {
                     Violet.SetActive(true);
+                    Rouge.SetActive(false);
                     Done = true;
                     ClosedDoor.SetActive(false);
                     OpenedDoor.SetActive(true);
@@ -46,6 +47,7 @@ public class ChangeMaterial : MonoBehaviour
                 if (Half == true)
                 {
                     Violet.SetActive(true);
+                    Bleu.SetActive(false);
                     Done = true;
                     ClosedDoor.SetActive(false);
                     OpenedDoor.SetActive(true);
