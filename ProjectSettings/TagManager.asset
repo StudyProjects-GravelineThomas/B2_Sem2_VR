@@ -18,6 +18,8 @@ TagManager:
   - CubeJaune
   - CubeVert
   - CubeBleu
+  - Sphere
+  - Pyramide
   layers:
   - Default
   - TransparentFX
