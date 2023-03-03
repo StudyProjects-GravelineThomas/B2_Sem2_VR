@@ -9,7 +9,7 @@ public class ActivateTeleportationRay : MonoBehaviour
     public GameObject rightTeleportation;
 
     public InputActionProperty rightActivate;
-
+    
     //public XRRayInteractor leftRay;
     //public XRRayInteractor rightRay;
 
