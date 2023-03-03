@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Level_Thomas.unity
+    guid: 09516b2b63f5cfe499f5c33b6af607c2
+  - enabled: 1
+    path: Assets/Scenes/Beyan_Level3.unity
+    guid: bab96875c25886343a48b178408632b2
+  - enabled: 1
+    path: Assets/Hugo/Hugo_Lvl1.unity
+    guid: 71a2ea72b1c053243a1ba6ed499b6294
+  - enabled: 1
+    path: Assets/Hugo/Hugo_LvlBonus.unity
+    guid: 11fb78c74f877cd46811c798a947328a
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9f1516275a5e6dd47abe9438108fc516,
       type: 2}
