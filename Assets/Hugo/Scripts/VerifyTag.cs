@@ -10,8 +10,10 @@ public class VerifyTag : MonoBehaviour
     public string Tag3;
     public GameObject ClosedDoor;   
     public GameObject OpenedDoor;
+    public GameObject AntiTP;
     public GameObject CombinationManager;
     private SetNumber Nbr;
+    public bool IsSpecialDoor = false;
     void Start()
     {
         Nbr = CombinationManager.GetComponent<SetNumber>();
@@ -21,22 +23,23 @@ public class VerifyTag : MonoBehaviour
         
         if(other.tag == IsTag)
         {
-            if(IsTag == /*"Skull"*/Tag1 || IsTag == /*"Pail"*/ Tag2 || IsTag == /*"Vase"*/ Tag3)
+            if(IsTag == Tag1 || IsTag == Tag2 || IsTag == Tag3)
             {
                 CombinationManager.GetComponent<SetNumber>().SetNumberPlus();
-                //Debug.Log("+1");
                 if(Nbr.Number >= 3)
                 {
                     ClosedDoor.SetActive(false);
                     OpenedDoor.SetActive(true);
-                    //Debug.Log("Ouvre");
                 }
             }
             else
             {
                 ClosedDoor.SetActive(false);
                 OpenedDoor.SetActive(true);
-                //Debug.Log("OuvreAutre");
+                if(IsSpecialDoor == true)
+                {
+                    AntiTP.SetActive(false);
+                }
             } 
         }
     }
@@ -45,22 +48,19 @@ public class VerifyTag : MonoBehaviour
     {
         if(other.tag == IsTag)
         {
-            if(IsTag == "Skull" || IsTag == "Pail" || IsTag == "Vase")
+            if(IsTag == Tag1 || IsTag == Tag2 || IsTag == Tag3)
             {
                 CombinationManager.GetComponent<SetNumber>().SetNumberMinus();
-                //Debug.Log("-1");
                 if(Nbr.Number == 2)
                 {
                     ClosedDoor.SetActive(true);
                     OpenedDoor.SetActive(false);
-                    //Debug.Log("Ferme");
                 }
             }
             else
             {
                 ClosedDoor.SetActive(true);
                 OpenedDoor.SetActive(false);
-                //Debug.Log("FermeAutre");
             }
             
         }
