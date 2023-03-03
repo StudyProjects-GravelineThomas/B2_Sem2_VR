@@ -8,7 +8,9 @@ public class PlayButtonTigger : MonoBehaviour
     {
         if(other.name == "RightHand")
         {
-            GameObject.Find("AudioManager").GetComponent<AudioManager>().PlaySound("Menu");
+            
+            GameObject.Find("AudioManager").GetComponent<AudioManager>().PlaySound("ButtonClick");
+            GameObject.Find("SceneManager").GetComponent<SceneManager>().LoadScene("Hugo_Lvl1");
         }
     }
 }
