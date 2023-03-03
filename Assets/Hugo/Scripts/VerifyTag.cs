@@ -5,6 +5,9 @@ using UnityEngine;
 public class VerifyTag : MonoBehaviour
 {
     public string IsTag;
+    public string Tag1;
+    public string Tag2;
+    public string Tag3;
     public GameObject ClosedDoor;   
     public GameObject OpenedDoor;
     public GameObject CombinationManager;
@@ -18,7 +21,7 @@ public class VerifyTag : MonoBehaviour
         
         if(other.tag == IsTag)
         {
-            if(IsTag == "Skull" || IsTag == "Pail" || IsTag == "Vase")
+            if(IsTag == /*"Skull"*/Tag1 || IsTag == /*"Pail"*/ Tag2 || IsTag == /*"Vase"*/ Tag3)
             {
                 CombinationManager.GetComponent<SetNumber>().SetNumberPlus();
                 //Debug.Log("+1");
