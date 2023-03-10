@@ -17,25 +17,34 @@ public class Luminous : MonoBehaviour
             PressurePlate_Luminous.SetActive(true);
             WhichOne+=1;
         }
-        if(WhichOne ==1)
+        else
         {
-            PressurePlate_Luminous.SetActive(false);
-            Key_Luminous.SetActive(true);
-            WhichOne+=1;
+            if(WhichOne ==1)
+            {
+                PressurePlate_Luminous.SetActive(false);
+                Key_Luminous.SetActive(true);
+                WhichOne+=1;
+            }
+            else
+            {
+                if(WhichOne ==2)
+                {
+                    Key_Luminous.SetActive(false);
+                    Potion_Luminous.SetActive(true);
+                    WhichOne+=1;
+                }
+                else
+                {
+                    if(WhichOne ==3)
+                    {
+                        Potion_Luminous.SetActive(false);
+                        FinalPath_Luminous.SetActive(true);
+                        WhichOne+=1;
+                    }
+                }
+            }
+
         }
-        if(WhichOne ==2)
-        {
-            Key_Luminous.SetActive(false);
-            Potion_Luminous.SetActive(true);
-            WhichOne+=1;
-        }
-        if(WhichOne ==3)
-        {
-            Potion_Luminous.SetActive(false);
-            FinalPath_Luminous.SetActive(true);
-            WhichOne+=1;
-        }
-        
     }
 
 }
