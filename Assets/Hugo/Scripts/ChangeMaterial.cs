@@ -12,6 +12,7 @@ public class ChangeMaterial : MonoBehaviour
     public GameObject VaseVide;
     public GameObject OpenedDoor;
     public GameObject ClosedDoor;
+    public GameObject LuminousManager;
     
     void OnTriggerEnter(Collider other)
     {
@@ -26,6 +27,7 @@ public class ChangeMaterial : MonoBehaviour
                     Done = true;
                     ClosedDoor.SetActive(false);
                     OpenedDoor.SetActive(true);
+                    LuminousManager.GetComponent<Luminous>().LuminousProtocol();
                     /*VaseVide.GetComponent<MeshRenderer>().material = Violet;
                     Violet = VaseVide.GetComponent<MeshFilter>();
                     Violet.sharedMesh = Resources.Load<Mesh>("Icosphere,003");*/
@@ -51,6 +53,7 @@ public class ChangeMaterial : MonoBehaviour
                     Done = true;
                     ClosedDoor.SetActive(false);
                     OpenedDoor.SetActive(true);
+                    LuminousManager.GetComponent<Luminous>().LuminousProtocol();
                     /*VaseVide.GetComponent<MeshRenderer> ().material = Violet;
                     Violet = VaseVide.GetComponent<MeshFilter>();
                     Violet.sharedMesh = Resources.Load<Mesh>("Icosphere,003");*/
