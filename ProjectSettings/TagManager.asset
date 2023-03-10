@@ -12,6 +12,7 @@ TagManager:
   - Key
   - BlueVase
   - RedVase
+  - Hand
   layers:
   - Default
   - TransparentFX
