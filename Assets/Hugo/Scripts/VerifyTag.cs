@@ -12,6 +12,7 @@ public class VerifyTag : MonoBehaviour
     public GameObject OpenedDoor;
     public GameObject AntiTP;
     public GameObject CombinationManager;
+    public GameObject LuminousManager;
     private SetNumber Nbr;
     public bool IsSpecialDoor = false;
     void Start()
@@ -30,12 +31,14 @@ public class VerifyTag : MonoBehaviour
                 {
                     ClosedDoor.SetActive(false);
                     OpenedDoor.SetActive(true);
+                    LuminousManager.GetComponent<Luminous>().LuminousProtocol();
                 }
             }
             else
             {
                 ClosedDoor.SetActive(false);
                 OpenedDoor.SetActive(true);
+                LuminousManager.GetComponent<Luminous>().LuminousProtocol();
                 if(IsSpecialDoor == true)
                 {
                     AntiTP.SetActive(false);
