@@ -37570,6 +37570,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2409589946604805268, guid: 423a7e4f10d009b44b7137fa3478d1ad,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522527532517036256, guid: 423a7e4f10d009b44b7137fa3478d1ad,
+        type: 3}
+      propertyPath: SceneName
+      value: Hugo_LvlBonus
+      objectReference: {fileID: 0}
     - target: {fileID: 7522527532517036259, guid: 423a7e4f10d009b44b7137fa3478d1ad,
         type: 3}
       propertyPath: m_RootOrder
