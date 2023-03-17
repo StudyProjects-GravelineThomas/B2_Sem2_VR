@@ -27,7 +27,7 @@ public class ChangeMaterial : MonoBehaviour
                     Done = true;
                     ClosedDoor.SetActive(false);
                     OpenedDoor.SetActive(true);
-                    LuminousManager.GetComponent<Luminous>().LuminousProtocol();
+                    LuminousManager.GetComponent<Luminous>().Luminous_Potion();
                     /*VaseVide.GetComponent<MeshRenderer>().material = Violet;
                     Violet = VaseVide.GetComponent<MeshFilter>();
                     Violet.sharedMesh = Resources.Load<Mesh>("Icosphere,003");*/
@@ -53,7 +53,7 @@ public class ChangeMaterial : MonoBehaviour
                     Done = true;
                     ClosedDoor.SetActive(false);
                     OpenedDoor.SetActive(true);
-                    LuminousManager.GetComponent<Luminous>().LuminousProtocol();
+                    LuminousManager.GetComponent<Luminous>().Luminous_Potion();
                     /*VaseVide.GetComponent<MeshRenderer> ().material = Violet;
                     Violet = VaseVide.GetComponent<MeshFilter>();
                     Violet.sharedMesh = Resources.Load<Mesh>("Icosphere,003");*/

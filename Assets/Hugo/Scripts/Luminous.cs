@@ -9,8 +9,32 @@ public class Luminous : MonoBehaviour
     public GameObject Potion_Luminous;
     public GameObject FinalPath_Luminous;
     public int WhichOne =0;
+    public string Lum_Obj;
 
-    public void LuminousProtocol()
+    public void Luminous_PressurePlate()
+    {
+       PressurePlate_Luminous.SetActive(true); 
+    }
+
+    public void Luminous_Key()
+    {
+        PressurePlate_Luminous.SetActive(false);
+        Key_Luminous.SetActive(true);
+    }
+
+    public void Luminous_Potion()
+    {
+        Key_Luminous.SetActive(false);
+        Potion_Luminous.SetActive(true);
+    }
+
+    public void Luminous_FinalPath()
+    {
+        Potion_Luminous.SetActive(false);
+        FinalPath_Luminous.SetActive(true);
+    }
+
+    /*public void LuminousProtocol()
     {
         if(WhichOne ==0)
         {
@@ -45,6 +69,6 @@ public class Luminous : MonoBehaviour
             }
 
         }
-    }
+    }*/
 
 }
