@@ -19,6 +19,7 @@ TagManager:
   - CubeJaune
   - CubeVert
   - CubeBleu
+  - SpecialDoor
   - Sphere
   - Pyramide
   layers:
