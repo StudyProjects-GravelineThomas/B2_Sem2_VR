@@ -10,10 +10,10 @@ public class VerifyTag : MonoBehaviour
     public string Tag3;
     public GameObject ClosedDoor;   
     public GameObject OpenedDoor;
-    public GameObject AntiTP;
+    //public GameObject AntiTP;
     public GameObject CombinationManager;
     private SetNumber Nbr;
-    public bool IsSpecialDoor = false;
+    //public bool IsSpecialDoor = false;
     void Start()
     {
         Nbr = CombinationManager.GetComponent<SetNumber>();
@@ -30,16 +30,18 @@ public class VerifyTag : MonoBehaviour
                 {
                     ClosedDoor.SetActive(false);
                     OpenedDoor.SetActive(true);
+                    GetComponent<Send_Luminous>().Send_Lumi();
                 }
             }
             else
             {
                 ClosedDoor.SetActive(false);
                 OpenedDoor.SetActive(true);
-                if(IsSpecialDoor == true)
+                GetComponent<Send_Luminous>().Send_Lumi();
+                /*if(IsSpecialDoor == true)
                 {
                     AntiTP.SetActive(false);
-                }
+                }*/
             } 
         }
     }
