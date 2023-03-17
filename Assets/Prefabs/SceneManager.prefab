@@ -44,3 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0baa3b6a5491cde49b53984451b5bacd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Canvas: {fileID: 0}
+  FadeScreenPrefab: {fileID: 364826545031426636, guid: 4b9df67d4cc9a4545a33c08fe7cd7221,
+    type: 3}
