@@ -6,6 +6,8 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
+    [SerializeField]
+    private Canvas oneCanvas;
 
     public static AudioManager instance;
 
@@ -18,6 +20,9 @@ public class AudioManager : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(oneCanvas);
+        oneCanvas.enabled = false;
+        
 
         foreach(Sound _sound in sounds){
             _sound.audioSource = gameObject.AddComponent<AudioSource>();
@@ -25,6 +30,20 @@ public class AudioManager : MonoBehaviour
             _sound.audioSource.volume = _sound.volume;
             _sound.audioSource.pitch = _sound.pitch;
             _sound.audioSource.loop = _sound.loop;
+        }
+    }
+
+    public void FixedUpdate(){
+        oneCanvas.worldCamera = Camera.main;
+        oneCanvas.planeDistance = 0.5f;
+        bool _showOneSpeaking = false;
+        foreach(Sound sound in sounds){
+            if(sound.audioSource.isPlaying && sound.isOneSpaking) _showOneSpeaking = true;
+        }
+        if(_showOneSpeaking){
+            oneCanvas.enabled = true;
+        } else {
+            oneCanvas.enabled = false;
         }
     }
 
