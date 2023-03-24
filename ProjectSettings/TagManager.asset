@@ -13,11 +13,13 @@ TagManager:
   - Key
   - BlueVase
   - RedVase
+  - Hand
   - Cube
   - CubeRouge
   - CubeJaune
   - CubeVert
   - CubeBleu
+  - SpecialDoor
   - Sphere
   - Pyramide
   layers:
