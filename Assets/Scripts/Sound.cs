@@ -15,6 +15,9 @@ public class Sound : MonoBehaviour
     [SerializeField]
     [Tooltip("If true, an icon of the virtual assistant wiil be shown on screen")]
     public bool isOneSpaking;
+    [SerializeField]
+    [Tooltip("The sound that will be played just after this one")]
+    public string followUpSoundName;
 
     [HideInInspector]
     public AudioSource audioSource;
