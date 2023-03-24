@@ -19,9 +19,13 @@ TagManager:
   - CubeJaune
   - CubeVert
   - CubeBleu
+<<<<<<< Updated upstream
   - SpecialDoor
   - Sphere
   - Pyramide
+=======
+  - Custom
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
@@ -34,11 +38,11 @@ TagManager:
   - Level
   - Grabbables
   - Joueur
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "D\xE9coration"
+  - CubeRouge
+  - CubeBleu
+  - CubeVert
+  - CubeJaune
   - 
   - 
   - 
