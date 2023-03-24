@@ -1922,8 +1922,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1766212, y: 1.4444053, z: 1.9551525}
   m_Center: {x: -0.00000023841858, y: 0.72169673, z: 0.00000020861626}
-<<<<<<< Updated upstream
-=======
 --- !u!1001 &438713455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2063,7 +2061,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 446079679}
   m_CullTransparentMesh: 1
->>>>>>> Stashed changes
 --- !u!1001 &454130656
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13760,14 +13757,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1766212, y: 1.4444053, z: 1.9551525}
   m_Center: {x: 0, y: 0.72169673, z: 0.000000029802322}
-<<<<<<< Updated upstream
---- !u!223 &1081175862 stripped
-Canvas:
-  m_CorrespondingSourceObject: {fileID: 3681501039682133716, guid: 57849148bfd32834183b5b5b97887179,
-    type: 3}
-  m_PrefabInstance: {fileID: 3681501040748622306}
-  m_PrefabAsset: {fileID: 0}
-=======
 --- !u!1 &1070395245
 GameObject:
   m_ObjectHideFlags: 0
@@ -18592,7 +18581,6 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
->>>>>>> Stashed changes
 --- !u!1001 &1107457015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19784,8 +19772,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eacb75122acaf6a48a0b5e3cbb782f9a, type: 3}
-<<<<<<< Updated upstream
-=======
 --- !u!1001 &1441088832
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20015,7 +20001,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1487846512}
   m_PrefabAsset: {fileID: 0}
->>>>>>> Stashed changes
 --- !u!1001 &1494717659
 PrefabInstance:
   m_ObjectHideFlags: 0
