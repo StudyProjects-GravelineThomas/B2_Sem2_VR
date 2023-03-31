@@ -17173,6 +17173,16 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 2388924425043474714, guid: eacb75122acaf6a48a0b5e3cbb782f9a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388924425043474715, guid: eacb75122acaf6a48a0b5e3cbb782f9a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2388924425043474717, guid: eacb75122acaf6a48a0b5e3cbb782f9a,
         type: 3}
       propertyPath: m_RootOrder
