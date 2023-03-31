@@ -20,7 +20,10 @@ public class S_Laser : MonoBehaviour
         {
             if (hit.collider)
             {
+                {
                 lr.SetPosition(1, hit.point);
+                }
+
             }
         }
         else lr.SetPosition(1, transform.forward * 5000);
