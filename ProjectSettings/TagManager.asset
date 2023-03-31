@@ -19,13 +19,8 @@ TagManager:
   - CubeJaune
   - CubeVert
   - CubeBleu
-<<<<<<< Updated upstream
-  - SpecialDoor
-  - Sphere
-  - Pyramide
-=======
   - Custom
->>>>>>> Stashed changes
+  - SpecialDoor
   layers:
   - Default
   - TransparentFX
@@ -43,7 +38,7 @@ TagManager:
   - CubeBleu
   - CubeVert
   - CubeJaune
-  - 
+  - AntiTp
   - 
   - 
   - 
@@ -62,7 +57,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: UI
-    uniqueID: 3105517139
     locked: 0
