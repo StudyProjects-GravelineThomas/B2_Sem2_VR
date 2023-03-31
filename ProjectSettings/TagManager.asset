@@ -19,9 +19,8 @@ TagManager:
   - CubeJaune
   - CubeVert
   - CubeBleu
+  - Custom
   - SpecialDoor
-  - Sphere
-  - Pyramide
   layers:
   - Default
   - TransparentFX
@@ -34,12 +33,12 @@ TagManager:
   - Level
   - Grabbables
   - Joueur
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "D\xE9coration"
+  - CubeRouge
+  - CubeBleu
+  - CubeVert
+  - CubeJaune
+  - AntiTp
   - 
   - 
   - 
@@ -58,7 +57,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: UI
-    uniqueID: 3105517139
     locked: 0
