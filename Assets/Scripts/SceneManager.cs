@@ -27,16 +27,15 @@ public class SceneManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
         Canvas.enabled = false;
-        this.Canvas.worldCamera = Camera.main;
         DontDestroyOnLoad(Canvas);
         DontDestroyOnLoad(FadeScreenCanvas);
     }
 
     public void FixedUpdate(){
         if(FadeScreenCanvas.worldCamera == null) FadeScreenCanvas.worldCamera = Camera.main;
-        FadeScreenCanvas.planeDistance = 0.05f;
-        Canvas.transform.position = Camera.main.transform.forward * 0.8f + Camera.main.transform.position;
-        Canvas.transform.rotation = Camera.main.transform.rotation;
+        if(Canvas.worldCamera == null) Canvas.worldCamera = Camera.main;
+        FadeScreenCanvas.planeDistance = 0.51f;
+        Canvas.planeDistance = 0.52f;
         if(sceneToSwitchTo != null){
             timer -= Time.deltaTime;
             FadeScreenCanvas.GetComponentInChildren<Image>().color = new Color(0f, 0f, 0f, Mathf.Lerp(1f, 0f, timer-1f / 2f));
@@ -69,9 +68,8 @@ public class SceneManager : MonoBehaviour
         //}
         //Camera.main.GetComponentInChildren<FadeScreen>().FadeIn();
         FadeScreenCanvas.GetComponentInChildren<Image>().color = new Color(0f, 0f, 0f, 0f);
-        FadeScreenCanvas.worldCamera = Camera.main;
-        FadeScreenCanvas.planeDistance = 0.05f;
-        AudioManager.instance.getSound("Menu").audioSource.volume = 0f;
+        //AudioManager.instance.getSound("Menu").audioSource.volume = 0f;
+        AudioManager.instance.PlaySound("Menu");
         this.timer = 3f;
     }
 
