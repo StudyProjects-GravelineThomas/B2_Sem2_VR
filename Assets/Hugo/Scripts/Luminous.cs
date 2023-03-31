@@ -8,6 +8,8 @@ public class Luminous : MonoBehaviour
     public GameObject Key_Luminous;
     public GameObject Potion_Luminous;
     public GameObject FinalPath_Luminous;
+    public GameObject AntiTP;
+    public GameObject Switcher;
     public int WhichOne =0;
     public string Lum_Obj;
 
@@ -26,12 +28,14 @@ public class Luminous : MonoBehaviour
     {
         Key_Luminous.SetActive(false);
         Potion_Luminous.SetActive(true);
+        AntiTP.SetActive(false);
     }
 
     public void Luminous_FinalPath()
     {
         Potion_Luminous.SetActive(false);
         FinalPath_Luminous.SetActive(true);
+        Switcher.SetActive(true);
     }
 
     /*public void LuminousProtocol()
