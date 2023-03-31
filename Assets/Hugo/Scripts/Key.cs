@@ -7,13 +7,18 @@ public class Key : MonoBehaviour
     public GameObject LuminousManager;
     public GameObject OpenedDoor;
     public GameObject ClosedDoor;
+    public bool AlreadyDone;
 
     void OnTriggerEnter(Collider other) 
     {
         
         if(other.tag == "Hand")
         {
-            LuminousManager.GetComponent<Luminous>().Luminous_Key();
+            if(AlreadyDone == false)
+            {
+                LuminousManager.GetComponent<Luminous>().Luminous_Key();
+                AlreadyDone = true;
+            }
         }
 
         if (other.tag == "SpecialDoor")

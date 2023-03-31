@@ -6070,6 +6070,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 95396476}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &99658853 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23311707024649372, guid: 49bdb26a254ee6642babd4ee87b0175a,
+    type: 3}
+  m_PrefabInstance: {fileID: 593611590}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &104101173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12191,7 +12197,7 @@ MonoBehaviour:
   m_HoverEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1706655784}
+      - m_Target: {fileID: 613732217}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_material
         m_Mode: 2
@@ -12207,7 +12213,7 @@ MonoBehaviour:
   m_HoverExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1706655784}
+      - m_Target: {fileID: 613732217}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_material
         m_Mode: 2
@@ -13052,6 +13058,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4248846288640394, guid: 296fc91a20f2cfe4c97182c3c87b9aca,
     type: 3}
   m_PrefabInstance: {fileID: 474098856}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &482550094 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23311707024649372, guid: 49bdb26a254ee6642babd4ee87b0175a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1317652985}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &491145344
 PrefabInstance:
@@ -14193,7 +14205,7 @@ MonoBehaviour:
   m_HoverEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1706655784}
+      - m_Target: {fileID: 99658853}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_material
         m_Mode: 2
@@ -14209,7 +14221,7 @@ MonoBehaviour:
   m_HoverExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1706655784}
+      - m_Target: {fileID: 99658853}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_material
         m_Mode: 2
@@ -14342,6 +14354,12 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!23 &613732217 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23311707024649372, guid: 49bdb26a254ee6642babd4ee87b0175a,
+    type: 3}
+  m_PrefabInstance: {fileID: 351745174}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &633283829 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1692775477096746, guid: b4f48bc2f8f17e54394afc2b5602b5f1,
@@ -24578,7 +24596,7 @@ MonoBehaviour:
   m_HoverEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1706655784}
+      - m_Target: {fileID: 766603173}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_material
         m_Mode: 2
@@ -24594,7 +24612,7 @@ MonoBehaviour:
   m_HoverExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1706655784}
+      - m_Target: {fileID: 766603173}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_material
         m_Mode: 2
@@ -29928,6 +29946,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.8679466, y: 0.10282877, z: 2.8679466}
   m_Center: {x: 0, y: -0.051414885, z: 0}
+--- !u!23 &766603173 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23311707024649372, guid: 49bdb26a254ee6642babd4ee87b0175a,
+    type: 3}
+  m_PrefabInstance: {fileID: 695882890}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &780136441
 GameObject:
   m_ObjectHideFlags: 0
@@ -30639,7 +30663,7 @@ MonoBehaviour:
   m_HoverEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1706655784}
+      - m_Target: {fileID: 2096015446}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_material
         m_Mode: 2
@@ -30655,7 +30679,7 @@ MonoBehaviour:
   m_HoverExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1706655784}
+      - m_Target: {fileID: 2096015446}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_material
         m_Mode: 2
@@ -34790,7 +34814,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1210476509}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 919e39492806b334982b6b84c90dd927, type: 3}
   m_Name: 
@@ -34848,7 +34872,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1210476509}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0bf296fc962d7184ab14ad1841598d5f, type: 3}
   m_Name: 
@@ -40366,7 +40390,7 @@ MonoBehaviour:
   m_HoverEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1706655784}
+      - m_Target: {fileID: 482550094}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_material
         m_Mode: 2
@@ -40382,7 +40406,7 @@ MonoBehaviour:
   m_HoverExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1706655784}
+      - m_Target: {fileID: 482550094}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_material
         m_Mode: 2
@@ -43234,7 +43258,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1789628359}
   m_Layer: 0
-  m_Name: PressurePlate1
+  m_Name: Path
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49683,6 +49707,7 @@ MonoBehaviour:
   Porte: {fileID: 2123548924}
   PorteOuverte: {fileID: 116191274}
   SceneSwitcher: {fileID: 760233758}
+  Path: {fileID: 1789628358}
 --- !u!54 &2033503852
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -50692,6 +50717,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4646888661230560, guid: a4b27d1f6343596459f4f29663d21eda,
     type: 3}
   m_PrefabInstance: {fileID: 2091560727}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &2096015446 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23311707024649372, guid: 49bdb26a254ee6642babd4ee87b0175a,
+    type: 3}
+  m_PrefabInstance: {fileID: 790778448}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2106014887
 PrefabInstance:
