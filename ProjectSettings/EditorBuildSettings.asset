@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene_Antony.unity
     guid: db4a235f6f60df54985b3806f11ad4d1
+  - enabled: 1
+    path: Assets/Level4/Level4.unity
+    guid: 217b174148c1adf4da96461fec28ebd1
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9f1516275a5e6dd47abe9438108fc516,
       type: 2}
