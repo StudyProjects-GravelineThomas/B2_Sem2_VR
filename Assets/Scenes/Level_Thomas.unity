@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 830d1cad4b06cd84ebfea44f1ce67fd3,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -1317,7 +1318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: One_05
   clip: {fileID: 8300000, guid: 1d653f850c772d94f81ac968391d736b, type: 3}
-  volume: 1
+  volume: 0.3
   pitch: 1
   loop: 0
   isOneSpaking: 1
@@ -1837,7 +1838,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: One_01
   clip: {fileID: 8300000, guid: 1a31fb09f707ab044846796312ab6a35, type: 3}
-  volume: 1
+  volume: 0.3
   pitch: 1
   loop: 0
   isOneSpaking: 1
@@ -7752,7 +7753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: One_04
   clip: {fileID: 8300000, guid: 7713258f14edc34439ee2fa0772f3fee, type: 3}
-  volume: 1
+  volume: 0.3
   pitch: 1
   loop: 0
   isOneSpaking: 1
@@ -12872,7 +12873,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: One_02
   clip: {fileID: 8300000, guid: c284c3f0220635f40b67314ab00b7e84, type: 3}
-  volume: 1
+  volume: 0.3
   pitch: 1
   loop: 0
   isOneSpaking: 1
@@ -14743,7 +14744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: One_03
   clip: {fileID: 8300000, guid: 0c7f84c5cf981be42a4d14a1d23b7235, type: 3}
-  volume: 1
+  volume: 0.3
   pitch: 1
   loop: 0
   isOneSpaking: 1
@@ -14799,7 +14800,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.31
+  m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -15122,7 +15123,7 @@ PrefabInstance:
     - target: {fileID: 2388924425043474717, guid: eacb75122acaf6a48a0b5e3cbb782f9a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.01
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 2388924425043474717, guid: eacb75122acaf6a48a0b5e3cbb782f9a,
         type: 3}
