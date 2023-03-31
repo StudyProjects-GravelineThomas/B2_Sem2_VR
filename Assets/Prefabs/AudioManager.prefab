@@ -383,7 +383,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8654dd8bc52ae9b4ba38f56dce407bf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - {fileID: 7216781249450548625}
+  - {fileID: 1016137802146414800}
+  - {fileID: 1284161254347629815}
+  - {fileID: 5064301696785902570}
+  - {fileID: 6170014386938104021}
+  - {fileID: 628694758889750658}
+  - {fileID: 8068832444570634512}
+  - {fileID: 8652804088989184873}
+  - {fileID: 1709523597620461562}
+  - {fileID: 5137835319402635379}
+  - {fileID: 4725699230628220923}
+  - {fileID: 911788601573519972}
+  - {fileID: 1497530247551186699}
+  - {fileID: 6573181592227199021}
   oneCanvas: {fileID: 0}
 --- !u!1 &2996266071973667350
 GameObject:
