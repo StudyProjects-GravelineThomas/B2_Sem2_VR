@@ -31,6 +31,7 @@ public class VerifyTag : MonoBehaviour
                     ClosedDoor.SetActive(false);
                     OpenedDoor.SetActive(true);
                     GetComponent<Send_Luminous>().Send_Lumi();
+                    AudioManager.instance.PlaySound("DoorUnlock");
                 }
             }
             else

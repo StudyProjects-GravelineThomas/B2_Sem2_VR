@@ -7,7 +7,6 @@ public class Key : MonoBehaviour
     public GameObject LuminousManager;
     public GameObject OpenedDoor;
     public GameObject ClosedDoor;
-    public GameObject AntiTP;
 
     void OnTriggerEnter(Collider other) 
     {
@@ -21,7 +20,7 @@ public class Key : MonoBehaviour
         {
             ClosedDoor.SetActive(false);
             OpenedDoor.SetActive(true);
-            AntiTP.SetActive(false);
+            AudioManager.instance.PlaySound("DoorUnlock");
         }
     }
 

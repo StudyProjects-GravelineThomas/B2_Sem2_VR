@@ -13,6 +13,8 @@ public class AdvancedLaser : MonoBehaviour
     public LineRenderer lr;
     public Transform startpoint;
 
+    public LayerMask layerMask;
+
     public void Start()
     {
         lr = GetComponent<LineRenderer>();
@@ -35,7 +37,7 @@ public class AdvancedLaser : MonoBehaviour
             Ray ray = new Ray(position, direction);
             RaycastHit hit;
 
-            if(Physics.Raycast(ray, out hit, 300, 1)) 
+            if(Physics.Raycast(ray, out hit, 300, layerMask)) 
             {
                 Debug.Log("Raycast moment");
                 position = hit.point;
@@ -56,6 +58,7 @@ public class AdvancedLaser : MonoBehaviour
                 if(hit.transform.tag == "Finish")
                 {
                     Finish = true;
+                    hit.transform.GetComponent<DoorOpener>().OpenTheDoor();
                 }
                 else
                 {

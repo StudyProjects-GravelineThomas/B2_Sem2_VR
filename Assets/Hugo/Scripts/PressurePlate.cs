@@ -6,6 +6,7 @@ public class PressurePlate : MonoBehaviour
 {
     public GameObject Porte;   
     public GameObject PorteOuverte;
+    public GameObject SceneSwitcher;
     void OnTriggerEnter(Collider other) 
     {
         
@@ -13,6 +14,7 @@ public class PressurePlate : MonoBehaviour
         {
             Porte.SetActive(false);
             PorteOuverte.SetActive(true);
+            SceneSwitcher.SetActive(true);
         }
     }
 
@@ -22,6 +24,7 @@ public class PressurePlate : MonoBehaviour
         {
             Porte.SetActive(true);
             PorteOuverte.SetActive(false);
+            SceneSwitcher.SetActive(false);
         }
     }
 }
