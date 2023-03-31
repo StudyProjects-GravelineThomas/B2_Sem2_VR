@@ -8,6 +8,7 @@ public class MainMenu : MonoBehaviour
     void Start()
     {
         GameObject.Find("AudioManager").GetComponent<AudioManager>().PlaySound("Menu");
+        AudioManager.instance.PlaySound("DoorUnlock");
     }
 
     // Update is called once per frame
