@@ -8,7 +8,7 @@ public class VerifyTag : MonoBehaviour
     public string Tag1;
     public string Tag2;
     public string Tag3;
-    public GameObject ClosedDoor;   
+    public GameObject ClosedDoor;
     public GameObject OpenedDoor;
     //public GameObject AntiTP;
     public GameObject CombinationManager;
@@ -18,15 +18,15 @@ public class VerifyTag : MonoBehaviour
     {
         Nbr = CombinationManager.GetComponent<SetNumber>();
     }
-    void OnTriggerEnter(Collider other) 
+    void OnTriggerEnter(Collider other)
     {
-        
-        if(other.tag == IsTag)
+
+        if (other.tag == IsTag)
         {
-            if(IsTag == Tag1 || IsTag == Tag2 || IsTag == Tag3)
+            if (IsTag == Tag1 || IsTag == Tag2 || IsTag == Tag3)
             {
                 CombinationManager.GetComponent<SetNumber>().SetNumberPlus();
-                if(Nbr.Number >= 3)
+                if (Nbr.Number >= 3)
                 {
                     ClosedDoor.SetActive(false);
                     OpenedDoor.SetActive(true);
@@ -43,18 +43,18 @@ public class VerifyTag : MonoBehaviour
                 {
                     AntiTP.SetActive(false);
                 }*/
-            } 
+            }
         }
     }
 
-    void OnTriggerExit(Collider other) 
+    void OnTriggerExit(Collider other)
     {
-        if(other.tag == IsTag)
+        if (other.tag == IsTag)
         {
-            if(IsTag == Tag1 || IsTag == Tag2 || IsTag == Tag3)
+            if (IsTag == Tag1 || IsTag == Tag2 || IsTag == Tag3)
             {
                 CombinationManager.GetComponent<SetNumber>().SetNumberMinus();
-                if(Nbr.Number == 2)
+                if (Nbr.Number == 2)
                 {
                     ClosedDoor.SetActive(true);
                     OpenedDoor.SetActive(false);
@@ -65,7 +65,8 @@ public class VerifyTag : MonoBehaviour
                 ClosedDoor.SetActive(true);
                 OpenedDoor.SetActive(false);
             }
-            
+
         }
     }
 }
+
