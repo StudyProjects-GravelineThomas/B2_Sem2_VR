@@ -10,7 +10,9 @@ public class LaserScript : MonoBehaviour
     public Color laserColor = Color.red; // couleur du laser
     public bool blockPlayer = true; // le laser bloque-t-il le joueur ?
     public GameObject MurInvisible;
-    public GameObject AntiTp;
+    //public GameObject MurInvisible1;
+    //public GameObject MurInvisible2;
+    //public GameObject MurInvisible3;
 
     private LineRenderer laserLine; // permet de dessiner la ligne du laser
     private RaycastHit hit; // permet de détecter les collisions
@@ -53,7 +55,9 @@ public class LaserScript : MonoBehaviour
                 //transform.position = hit.point;
 
                 MurInvisible.SetActive(false);
-                AntiTp.SetActive(false);
+                //MurInvisible1.SetActive(false);
+                //MurInvisible2.SetActive(false);
+                //MurInvisible3.SetActive(false);
 
                 // Bloquer le joueur s'il est touché par le laser
                 if (blockPlayer && hit.collider.gameObject.CompareTag("Player"))
@@ -69,7 +73,9 @@ public class LaserScript : MonoBehaviour
             else
             {
                 MurInvisible.SetActive(true);
-                AntiTp.SetActive(true);
+                //MurInvisible1.SetActive(true);
+                //MurInvisible2.SetActive(true);
+                //MurInvisible3.SetActive(true);
             }
         }
         else
