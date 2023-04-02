@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Level_Thomas.unity
+    path: Assets/Scenes/Lvl_Menu.unity
     guid: 09516b2b63f5cfe499f5c33b6af607c2
   - enabled: 1
     path: Assets/Scenes/Beyan_Level3.unity
